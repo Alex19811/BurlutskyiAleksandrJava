@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06102d-b6c6-431b-87ec-c2019e4edff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LabWork1_5/LabWork1_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2_1/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2_1/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabWork1_5/LabWork1_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork1_5/LabWork1_5.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/LabWork1_5/LabWork1_5.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -58,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabWork2_1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="17">
               <caret line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
@@ -273,14 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561552289036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="27062019">
+      <created>1561630219408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561630219408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26618123" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27022654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -312,10 +317,18 @@
     <MESSAGE value="06062019" />
     <MESSAGE value="25062019" />
     <MESSAGE value="26062019" />
-    <option name="LAST_COMMIT_MESSAGE" value="26062019" />
+    <MESSAGE value="27062019" />
+    <option name="LAST_COMMIT_MESSAGE" value="27062019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/production/untitled104/com/company/main.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/LabWork1_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LabWork1_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -332,7 +345,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork2_1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="17">
           <caret line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
@@ -340,17 +353,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LabWork1_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork1_5/LabWork1_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -44,7 +44,7 @@ public class MyWindow {
         myWindow5.color = "white";
         myWindow5.isOpen = true;
 
-       // void printFilds () {
+       printFilds  (); {
             System.out.println("My window1: width - " + myWindow1.width + ", "
                     + " height - " + myWindow1.height + ", "
                     + " numberOfGlass - " + myWindow1.numberOfGlass + " ,"
@@ -79,7 +79,7 @@ public class MyWindow {
         }
 
         // LabWork 2.3.2
-        public class MyWindow6 {
+        class MyWindow6 {
             private double width, height;
 
             public MyWindow MyWindow6() {
@@ -94,3 +94,7 @@ public class MyWindow {
 
 
     }
+
+    private static void printFilds() {
+    }
+}

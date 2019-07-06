@@ -62,20 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LabWork231/MyWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="408">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabWork233/MyWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="357">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/src/computer/setSerialNumber.java" />
         <option value="$PROJECT_DIR$/src/LabWork213/Computer.java" />
         <option value="$PROJECT_DIR$/src/LabWork213/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork231/MyWindow.java" />
         <option value="$PROJECT_DIR$/src/LabWork233/MyWindow.java" />
+        <option value="$PROJECT_DIR$/src/LabWork231/MyWindow.java" />
       </list>
     </option>
   </component>
@@ -434,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562415753396</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="06072019">
+      <created>1562416659060</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562416659060</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -603,17 +610,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork231/MyWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork233/MyWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork233/MyWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork231/MyWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>

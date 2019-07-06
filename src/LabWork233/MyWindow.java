@@ -21,4 +21,13 @@ public class MyWindow {
         System.out.println("w: " + w + " " + h + " " + n);
     }
 
-}
+//    public class Main {
+//        public static void main(String[] args) {
+//MyWindow myWindow11 = new MyWindow(1.1, 1.5);
+//
+//
+//       }
+
+   }
+
+

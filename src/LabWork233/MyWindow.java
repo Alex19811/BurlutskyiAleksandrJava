@@ -7,7 +7,7 @@ public class MyWindow {
     String color;
     boolean isOpen;
 
-    MyWindow (double w, double h){
+     MyWindow (double w, double h){
         width=w;
         height=h;
     }
@@ -17,4 +17,5 @@ public class MyWindow {
         height = h;
         numberOfGlass = n;
     }
+
 }

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06102d-b6c6-431b-87ec-c2019e4edff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LabWork231/MyWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork233/MyWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2_1/Computer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2_1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabWork231/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork231/MyWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +66,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LabWork231/MyWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="317">
+              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork233/MyWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -127,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/computer/setSerialNumber.java" />
         <option value="$PROJECT_DIR$/src/LabWork213/Computer.java" />
         <option value="$PROJECT_DIR$/src/LabWork213/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork233/MyWindow.java" />
         <option value="$PROJECT_DIR$/src/LabWork231/MyWindow.java" />
       </list>
     </option>
@@ -183,6 +192,12 @@
               <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LabWork231" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LabWork233" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,14 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562251001730</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="06072019">
+      <created>1562413746324</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562413746324</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23543689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23543689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32410613" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32410613" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,7 +472,8 @@
     <MESSAGE value="01072019" />
     <MESSAGE value="02072019" />
     <MESSAGE value="04072019" />
-    <option name="LAST_COMMIT_MESSAGE" value="04072019" />
+    <MESSAGE value="06072019" />
+    <option name="LAST_COMMIT_MESSAGE" value="06072019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" />
@@ -567,10 +590,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork231/LabWork233.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork233/MyWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork231/MyWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="317">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
         </state>
       </provider>
     </entry>

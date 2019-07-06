@@ -44,54 +44,53 @@ public class MyWindow {
         myWindow5.color = "white";
         myWindow5.isOpen = true;
 
-//        double printFields = myWindow1.width;
-//        {
-//            return;
+       // void printFilds () {
+            System.out.println("My window1: width - " + myWindow1.width + ", "
+                    + " height - " + myWindow1.height + ", "
+                    + " numberOfGlass - " + myWindow1.numberOfGlass + " ,"
+                    + " color - " + myWindow1.color + ", "
+                    + "isOpen - " + myWindow1.isOpen);
 
-        System.out.println("My window1: width - " + myWindow1.width + ", "
-                + " height - " + myWindow1.height + ", "
-                +" numberOfGlass - " + myWindow1.numberOfGlass +" ,"
-        + " color - " + myWindow1.color + ", "
-        + "isOpen - " + myWindow1.isOpen);
+            System.out.println("My window1: width - " + myWindow2.width + ", "
+                    + " height - " + myWindow2.height + ", "
+                    + " numberOfGlass - " + myWindow2.numberOfGlass + " ,"
+                    + " color - " + myWindow2.color + ", "
+                    + "isOpen - " + myWindow2.isOpen);
 
-        System.out.println("My window1: width - " + myWindow2.width + ", "
-                + " height - " + myWindow2.height + ", "
-                +" numberOfGlass - " + myWindow2.numberOfGlass +" ,"
-                + " color - " + myWindow2.color + ", "
-                + "isOpen - " + myWindow2.isOpen);
+            System.out.println("My window1: width - " + myWindow3.width + ", "
+                    + " height - " + myWindow3.height + ", "
+                    + " numberOfGlass - " + myWindow3.numberOfGlass + " ,"
+                    + " color - " + myWindow3.color + ", "
+                    + "isOpen - " + myWindow3.isOpen);
 
-        System.out.println("My window1: width - " + myWindow3.width + ", "
-                + " height - " + myWindow3.height + ", "
-                +" numberOfGlass - " + myWindow3.numberOfGlass +" ,"
-                + " color - " + myWindow3.color + ", "
-                + "isOpen - " + myWindow3.isOpen);
+            System.out.println("My window1: width - " + myWindow4.width + ", "
+                    + " height - " + myWindow4.height + ", "
+                    + " numberOfGlass - " + myWindow4.numberOfGlass + " ,"
+                    + " color - " + myWindow4.color + ", "
+                    + "isOpen - " + myWindow4.isOpen);
 
-        System.out.println("My window1: width - " + myWindow4.width + ", "
-                + " height - " + myWindow4.height + ", "
-                +" numberOfGlass - " + myWindow4.numberOfGlass +" ,"
-                + " color - " + myWindow4.color + ", "
-                + "isOpen - " + myWindow4.isOpen);
-
-        System.out.println("My window1: width - " + myWindow5.width + ", "
-                + " height - " + myWindow5.height + ", "
-                +" numberOfGlass - " + myWindow5.numberOfGlass +" ,"
-                + " color - " + myWindow5.color + ", "
-                + "isOpen - " + myWindow5.isOpen);
+            System.out.println("My window1: width - " + myWindow5.width + ", "
+                    + " height - " + myWindow5.height + ", "
+                    + " numberOfGlass - " + myWindow5.numberOfGlass + " ,"
+                    + " color - " + myWindow5.color + ", "
+                    + "isOpen - " + myWindow5.isOpen);
 
 
-    }
-// LabWork 2.3.2
-    public class MyWindow6{
-        private double width,height;
+        }
 
-    public MyWindow MyWindow6() {
-        this.width=1.5;
-        this.height=1.3;
-        MyWindow myWindow6 = new MyWindow();
-        return myWindow6;
+        // LabWork 2.3.2
+        public class MyWindow6 {
+            private double width, height;
+
+            public MyWindow MyWindow6() {
+                this.width = 1.5;
+                this.height = 1.3;
+                MyWindow myWindow6 = new MyWindow();
+                return myWindow6;
             }
 
 
-}
-}
+        }
 
+
+    }

@@ -4,30 +4,15 @@ public class MyWindow {
     double width;
     double height;
     int numberOfGlass;
-    String color;
-    boolean isOpen;
 
-    //проверяет наличие двух параменров
-    MyWindow (double w, double h){
-        width=w;
-        height=h;
-        System.out.println("w: " + w);
-    }
-//проверяет наличие трех параменров
-    MyWindow (double w, double h, int n){
-        width = w;
-        height = h;
-        numberOfGlass = n;
-        System.out.println("w: " + w + " " + h + " " + n);
+    public MyWindow(double width, double height) {
+        this.width = width;
+        this.height = height;
     }
 
-//    public class Main {
-//        public static void main(String[] args) {
-//MyWindow myWindow11 = new MyWindow(1.1, 1.5);
-//
-//
-//       }
-
-   }
-
-
+    public MyWindow(double width, double height, int numberOfGlass) {
+        this.width = width;
+        this.height = height;
+        this.numberOfGlass = numberOfGlass;
+    }
+}

@@ -7,45 +7,24 @@ public class MyWindow {
     String color;
     boolean isOpen;
 
-    public static void main(String args[]) {
-        MyWindow myWindow1 = new MyWindow();
-        MyWindow myWindow2 = new MyWindow();
-        MyWindow myWindow3 = new MyWindow();
-        MyWindow myWindow4 = new MyWindow();
-        MyWindow myWindow5 = new MyWindow();
 
-        myWindow1.width = 1.1;
-        myWindow1.height = 1.3;
-        myWindow1.numberOfGlass = 5;
-        myWindow1.color = "white";
-        myWindow1.isOpen = true;
+    public MyWindow(double width, double height, int numberOfGlass, String color, boolean isOpen) {
+        this.width = width;
+        this.height = height;
+        this.numberOfGlass = numberOfGlass;
+        this.color = color;
+        this.isOpen = isOpen;
+    }
 
-        myWindow2.width = 1.2;
-        myWindow2.height = 1.3;
-        myWindow2.numberOfGlass = 5;
-        myWindow2.color = "white";
-        myWindow2.isOpen = true;
 
-        myWindow3.width = 1.3;
-        myWindow3.height = 1.3;
-        myWindow3.numberOfGlass = 5;
-        myWindow3.color = "white";
-        myWindow3.isOpen = false;
 
-        myWindow4.width = 1.4;
-        myWindow4.height = 1.3;
-        myWindow4.numberOfGlass = 5;
-        myWindow4.color = "white";
-        myWindow4.isOpen = true;
+    public void printFilds(){
+        System.out.println(width+","+height);
+/*
 
-        myWindow5.width = 1.5;
-        myWindow5.height = 1.3;
-        myWindow5.numberOfGlass = 5;
-        myWindow5.color = "white";
-        myWindow5.isOpen = true;
 
-       printFilds  (); {
-            System.out.println("My window1: width - " + myWindow1.width + ", "
+
+            System.out.println("My window1: width - " + width + ", "
                     + " height - " + myWindow1.height + ", "
                     + " numberOfGlass - " + myWindow1.numberOfGlass + " ,"
                     + " color - " + myWindow1.color + ", "
@@ -74,27 +53,8 @@ public class MyWindow {
                     + " numberOfGlass - " + myWindow5.numberOfGlass + " ,"
                     + " color - " + myWindow5.color + ", "
                     + "isOpen - " + myWindow5.isOpen);
-
-
-        }
-
-        // LabWork 2.3.2
-        class MyWindow6 {
-            private double width, height;
-
-            public MyWindow MyWindow6() {
-                this.width = 1.5;
-                this.height = 1.3;
-                MyWindow myWindow6 = new MyWindow();
-                return myWindow6;
-            }
-
+*/
 
         }
-
-
     }
 
-    private static void printFilds() {
-    }
-}

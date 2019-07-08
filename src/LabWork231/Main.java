@@ -3,7 +3,21 @@ package LabWork231;
 public class Main {
     public static void main(String args[]) {
         MyWindow myWindow1 = new MyWindow(1.1,1.3,5,"white",true);
+        MyWindow myWindow2 = new MyWindow(1.2,1.3,5,"white",false);
+        MyWindow myWindow3 = new MyWindow(1.3,1.3,5,"white",true);
+        MyWindow myWindow4 = new MyWindow(1.4,1.3,5,"white",true);
+        MyWindow myWindow5 = new MyWindow(1.5,1.3,5,"white",true);
+
         myWindow1.printFilds();
+        myWindow2.printFilds();
+        myWindow3.printFilds();
+        myWindow4.printFilds();
+        myWindow5.printFilds();
+
+
+
+
+     // або
       /*  MyWindow myWindow2 = new MyWindow();
         MyWindow myWindow3 = new MyWindow();
         MyWindow myWindow4 = new MyWindow();

@@ -19,19 +19,18 @@ public class MyWindow {
 
 
     public void printFilds(){
-        System.out.println(width+","+height);
-/*
+       // System.out.println(width+","+height);
 
 
 
             System.out.println("My window1: width - " + width + ", "
-                    + " height - " + myWindow1.height + ", "
-                    + " numberOfGlass - " + myWindow1.numberOfGlass + " ,"
-                    + " color - " + myWindow1.color + ", "
-                    + "isOpen - " + myWindow1.isOpen);
+                    + " height - " + height + ", "
+                    + " numberOfGlass - " + numberOfGlass + " ,"
+                    + " color - " + color + ", "
+                    + "isOpen - " + isOpen);
 
-            System.out.println("My window1: width - " + myWindow2.width + ", "
-                    + " height - " + myWindow2.height + ", "
+          /*  System.out.println("My window1: width - " + width + ", "
+                    + " height - " + height + ", "
                     + " numberOfGlass - " + myWindow2.numberOfGlass + " ,"
                     + " color - " + myWindow2.color + ", "
                     + "isOpen - " + myWindow2.isOpen);
@@ -54,7 +53,6 @@ public class MyWindow {
                     + " color - " + myWindow5.color + ", "
                     + "isOpen - " + myWindow5.isOpen);
 */
-
         }
     }
 

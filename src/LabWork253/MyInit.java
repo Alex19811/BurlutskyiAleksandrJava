@@ -1,4 +1,4 @@
-package LabWork252;
+package LabWork253;
 
 public class MyInit {
 

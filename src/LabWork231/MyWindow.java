@@ -19,11 +19,7 @@ public class MyWindow {
 
 
     public void printFilds(){
-       // System.out.println(width+","+height);
-
-
-
-            System.out.println("My window1: width - " + width + ", "
+                   System.out.println("My window1: width - " + width + ", "
                     + " height - " + height + ", "
                     + " numberOfGlass - " + numberOfGlass + " ,"
                     + " color - " + color + ", "

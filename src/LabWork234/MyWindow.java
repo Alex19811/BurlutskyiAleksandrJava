@@ -17,14 +17,17 @@ public class MyWindow {
     }
 
     public void setWidth(double width) {
+
         this.width = width;
     }
 
     public void setHeight(double height) {
+
         this.height = height;
     }
 
     public void setNumberOfGlass(int numberOfGlass) {
+
         this.numberOfGlass = numberOfGlass;
     }
 }

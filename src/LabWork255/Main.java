@@ -14,15 +14,11 @@ public class Main {
         InitTest initTest4 = new InitTest();
         InitTest initTest5 = new InitTest();
 
-      //  InitTest.getId();
+        initTest1.getId();
+        initTest2.getId();
+        initTest3.getId();
+        initTest4.getId();
+        initTest5.getId();
 
-
-       // InitTest.
-//        om.displayId();    // Id = 1
-//        bob.displayId();    // Id = 2
-//        System.out.println(Person.counter); // 3
-//
-//    // изменяем Person.counter
-//    Person.counter = 8;
     }
 }

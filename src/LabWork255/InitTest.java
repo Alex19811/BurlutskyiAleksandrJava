@@ -2,47 +2,21 @@ package LabWork255;
 
 public class InitTest {
 
-
     private int id;
     private static int nextId;
 
-    {
-        nextId = (int) (100 * Math.random());
-        System.out.println(nextId);
+    static {
+        nextId = (int) (1000 * Math.random());
     }
 
-    //инициализация поля id из nextId увеличивается каждый раз, когда создается новый экземпляр InitTest
+    public InitTest() {
+        this.id = nextId;
+        this.nextId = nextId + 1;
+    }
 
-    InitTest() {
-       // id = nextId+;
+    public int getId() {
         System.out.println(id);
+        return id;
     }
 
-
-
-
-
-
-   /* public static int getId() {
-       System.out.print(id);
-        return getId();
-    }*/
 }
-
-
-
-    /*public void nextId() {
-
-        System.out.printf("Id: %d \n", id);
-        System.out.println(nextId);
-    }
-
-    public void printId() {
-        for (int i = 0; i < 1000; i++) {
-            System.out.print(i + " , ");
-        }
-
-
-
-    }
-*/

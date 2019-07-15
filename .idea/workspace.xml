@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06102d-b6c6-431b-87ec-c2019e4edff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DSetAndGet112/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSetAndGet112/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSetAndGet113/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSetAndGet113/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAccount110/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAccount110/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DToString/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DToString/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork255/InitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork255/InitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork255/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork255/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +19,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAccount110/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DAccount110/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,11 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LabWork2_1/Computer.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2_1/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork1_5/LabWork1_5.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2_2_1_multiplication/main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2_2_1_multiplication/MultiplicationMatrix.java" />
         <option value="$PROJECT_DIR$/src/LabWork2_2_1/Matrix.java" />
         <option value="$PROJECT_DIR$/src/LabWork2_2_1/Main.java" />
         <option value="$PROJECT_DIR$/src/Test/main.java" />
@@ -88,6 +100,11 @@
         <option value="$PROJECT_DIR$/src/DSetAndGet112/Account.java" />
         <option value="$PROJECT_DIR$/src/LabWork255/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork255/InitTest.java" />
+        <option value="$PROJECT_DIR$/src/DToString/Main.java" />
+        <option value="$PROJECT_DIR$/src/DToString/Item.java" />
+        <option value="$PROJECT_DIR$/src/DAccount114/Account.java" />
+        <option value="$PROJECT_DIR$/src/DAccount114/Main.java" />
+        <option value="$PROJECT_DIR$/src/DAccount110/Main.java" />
       </list>
     </option>
   </component>
@@ -103,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,18 +137,6 @@
               <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DSetAndGet112" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DSetAndGet113" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LabWork255" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,7 +148,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,15 +159,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="computer" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DAccount114" />
+      <recent name="DToString" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BurlutskyiAleksandrJava\src\LabWork265\MyCalc" />
       <recent name="D:\BurlutskyiAleksandrJava\src\LabWork253" />
       <recent name="D:\BurlutskyiAleksandrJava\src" />
       <recent name="D:\BurlutskyiAleksandrJava\src\com\company" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="computer" />
-      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LabWork253.Main" />
       <module name="untitled104" />
@@ -191,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSetAndGet112.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DToString.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSetAndGet112.*" />
+          <option name="PATTERN" value="DToString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +240,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork251.Main" />
+      <option name="MAIN_CLASS_NAME" value="DAccount110.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabWork251.*" />
+          <option name="PATTERN" value="DAccount110.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,19 +253,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -453,13 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562848497029</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="13072019">
+      <created>1563048641199</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563048641199</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27184466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28074434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,7 +504,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27184466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27588996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -497,7 +513,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32410613" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32410613" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,13 +547,11 @@
     <MESSAGE value="09072019" />
     <MESSAGE value="10072019" />
     <MESSAGE value="11072019" />
-    <option name="LAST_COMMIT_MESSAGE" value="11072019" />
+    <MESSAGE value="13072019" />
+    <MESSAGE value="15072019" />
+    <option name="LAST_COMMIT_MESSAGE" value="15072019" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LabWork2_2_1.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test/A.java" />
-    <entry file="file://$PROJECT_DIR$/src/computer/length.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork2_1/Computer.java" />
     <entry file="file://$PROJECT_DIR$/src/LabWork2_1/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/computer/setSerialNumber.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -662,34 +676,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DSetAndGet113/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DSetAndGet113/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DSetAndGet112/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DSetAndGet112/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -829,6 +815,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DSetAndGet113/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DToString/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DSetAndGet113/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DToString/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DSetAndGet112/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DSetAndGet112/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAccount110/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAccount110/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,9 +1,9 @@
 package DArrayList133;
 
-import sun.plugin.javascript.navig.Link;
+
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.LinkedList;
 
 public class Main {

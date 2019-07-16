@@ -11,7 +11,7 @@ public class InitTest {
 
     public InitTest() {
         this.id = nextId;
-        this.nextId = nextId + 1;
+        this.nextId = ++nextId;
     }
 
     public int getId() {

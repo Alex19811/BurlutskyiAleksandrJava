@@ -27,10 +27,10 @@ public class Main {
 */
 
         //или
-
-        ArrayList<String> list = new ArrayList<>(ArrayList.asList("AAAA", "BBBB", "CCCC"));
-        for (int i = 0; i < list.size(); i++)
-            System.out.println(list.get(i));
+//Дописати
+//        ArrayList<String> list = new ArrayList<>(ArrayList.asList("AAAA", "BBBB", "CCCC"));
+//        for (int i = 0; i < list.size(); i++)
+//            System.out.println(list.get(i));
 
     }
 }

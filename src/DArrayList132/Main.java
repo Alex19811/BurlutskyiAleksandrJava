@@ -54,14 +54,14 @@ public class Main {
         long t1 = System.currentTimeMillis();
 
 
-        for (int i = 0; i<list.size(); i++)
-            String tmp = (list.get(i));
-        System.out.println(tmp);
+//        for (int i = 0; i<list.size(); i++)
+//            String tmp = (list.get(i));
+//        System.out.println(tmp);
 
         //или способ итерации foraach
-        for (String tmp: list)
-        tmp;
-            System.out.println(System.currentTimeMillis() - t1);
+        /*for (String tmp: list)
+            System.out.println(tmp);
+            System.out.println(System.currentTimeMillis() - t1);*/
 
     }
 }

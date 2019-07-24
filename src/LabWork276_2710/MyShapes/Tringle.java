@@ -1,4 +1,4 @@
-package LabWork276.MyShapes;
+package LabWork276_2710.MyShapes;
 
 public class Tringle extends Shape {
     private double a;
@@ -18,6 +18,7 @@ public class Tringle extends Shape {
         double p = (a + b + c) / 2;
         return area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
+
 
     @Override
     public String toString() {

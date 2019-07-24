@@ -1,4 +1,4 @@
-package LabWork276.MyShapes;
+package LabWork276_2710.MyShapes;
 
 public class Rectangle extends Shape {
     private double width;

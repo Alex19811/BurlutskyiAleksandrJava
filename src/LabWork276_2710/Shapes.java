@@ -1,4 +1,4 @@
-package LabWork276;
+package LabWork276_2710;
 
 public class Shapes {
 }

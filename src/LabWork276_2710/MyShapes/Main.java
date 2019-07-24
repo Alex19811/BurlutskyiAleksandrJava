@@ -1,4 +1,4 @@
-package LabWork276.MyShapes;
+package LabWork276_2710.MyShapes;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,23 +1,39 @@
-/*
 package LabWork276.MyShapes;
 
 public class Circle extends Shape {
-    private static final double PI = 3.14;
-    private double radius = 22;
+
+    private double radius;
+    private static final double PI = 3.14159265;
+    double area;
 
 
+    public Circle(String shapeColor, double radius) {
+        super(shapeColor);
+        this.radius = radius;
+    }
+
+//    public void setRadius(double radius) {
+//        this.radius = 10;
+
+    //    }
     @Override
     public double calcArea() {
-        double area = PI * radius * radius;
-        return super.calcArea();
+        return area = PI * (radius * radius);
+        //або
+        //return Math.PI * (radius * radius);
     }
+
 
     @Override
     public String toString() {
-        System.out.println("Shape color is : " + shapeColor);
-        System.out.println("Shape area is : " + calcArea());
-        return (shapeColor);
+        return "This is Circle, color: " +
+                getShapeColor() + ", " +
+                "radius=" + radius + ", " +
+                "area is: " + calcArea();
+    }
+
+    public double getRadius() {
+        return radius;
     }
 }
 
-*/

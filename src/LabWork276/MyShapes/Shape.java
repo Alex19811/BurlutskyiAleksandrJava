@@ -12,13 +12,18 @@ public class Shape {
 
 
     public double calcArea() {
-               return (0.0);
+        return (0.0);
+    }
+
+    public String getShapeColor() {
+        return shapeColor;
     }
 
     @Override
     public String toString() {
         System.out.println("Shape color is : " + shapeColor);
         System.out.println("Shape area is : " + calcArea());
-        return (shapeColor);
+        return  (shapeColor);
+
     }
 }

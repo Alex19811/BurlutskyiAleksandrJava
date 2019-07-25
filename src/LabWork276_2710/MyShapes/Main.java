@@ -40,7 +40,21 @@ public class Main {
 
         for (int i = 0; i < shapes.length; i++)
             System.out.println(shapes[i].toString());
+       
 
+
+        for (int i = 0; i < shapes.length; i++) {
+            System.out.println(shapes.getArea());
+            shape.calcArea();
+            System.out.println(shapes.sumArea());
+        }
+
+
+
+
+        System.out.println(circle instanceof Circle);
+        System.out.println(rectangle instanceof Rectangle);
+        System.out.println(tringle instanceof Tringle);
 
      /*   sumArea = 0;
         for (int i = 0; i < shapes.length; i++) {

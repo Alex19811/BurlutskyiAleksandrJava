@@ -1,4 +1,6 @@
-package LabWork276_2710.MyShapes;
+package LabWork281.MyShapes;
+
+import LabWork276_2710.MyShapes.Shape;
 
 public class Rectangle extends Shape {
     private double width;
@@ -14,10 +16,6 @@ public class Rectangle extends Shape {
     @Override
     public double calcArea() {
         return area = width * height;
-    }
-
-    public double getArea() {
-        return area;
     }
 
     @Override

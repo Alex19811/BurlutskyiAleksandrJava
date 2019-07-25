@@ -1,13 +1,14 @@
-package LabWork276_2710.MyShapes;
+/*
+package LabWork281.MyShapes;
 
-public class Tringle extends Shape {
+public class Tringle  {
     private double a;
     private double b;
     private double c;
     double area;
 
     public Tringle(String shapeColor, double a, double b, double c) {
-        super(shapeColor);
+       super(shapeColor);
         this.a = a;
         this.b = b;
         this.c = c;
@@ -19,9 +20,6 @@ public class Tringle extends Shape {
         return area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 
-    public double getArea() {
-        return area;
-    }
 
     @Override
     public String toString() {
@@ -29,7 +27,14 @@ public class Tringle extends Shape {
                 getShapeColor() + ", " +
                 "a=" + a + ", " +
                 "b=" + b + ", " +
-                "c=" + c+ ", " +
+                "c=" + c + ", " +
                 "area is: " + calcArea();
     }
+
+    private String getShapeColor() {
+        return getShapeColor();
+
+    }
+
 }
+*/

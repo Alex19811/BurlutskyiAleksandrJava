@@ -1,4 +1,6 @@
-package LabWork276_2710.MyShapes;
+package LabWork281.MyShapes;
+
+import LabWork276_2710.MyShapes.Shape;
 
 public class Circle extends Shape {
 
@@ -23,9 +25,6 @@ public class Circle extends Shape {
         //return Math.PI * (radius * radius);
     }
 
-    public double getArea() {
-        return area;
-    }
 
     @Override
     public String toString() {
@@ -34,6 +33,7 @@ public class Circle extends Shape {
                 "radius=" + radius + ", " +
                 "area is: " + calcArea();
     }
+
 
     public double getRadius() {
         return radius;

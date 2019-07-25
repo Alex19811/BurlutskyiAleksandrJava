@@ -1,6 +1,6 @@
-package LabWork276_2710.MyShapes;
+package LabWork281.MyShapes;
 
-public class Shape {
+abstract public class Shape implements Drawable {
 
     //private String name;
     private String shapeColor;
@@ -11,9 +11,7 @@ public class Shape {
     }
 
 
-    public double calcArea() {
-        return (0.0);
-    }
+    abstract public double calcArea();
 
 
     public String getShapeColor() {
@@ -26,5 +24,12 @@ public class Shape {
         System.out.println("Shape area is : " + calcArea());
         return  (shapeColor);
 
+    }
+
+    @Override
+    public String draw() {
+        System.out.println("Shape color is : " + shapeColor);
+        System.out.println("Shape area is : " + calcArea());
+        return shapeColor;
     }
 }

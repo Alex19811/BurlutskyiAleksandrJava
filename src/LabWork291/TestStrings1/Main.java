@@ -17,21 +17,23 @@ public class Main {
         // как результат с измененным порядком букв (измените его, например, «abcd» dcba).
         // Вызовите метод reverse String () с помощью myStrargument и выведите результат на консоль.
 
-        myStrargument.reverse();
 
+reverseString();
 
+    }
 
-        /*StringBuffer buffer = new StringBuffer("abcd");
+    public  static String reverseString () {
+        StringBuffer buffer = new StringBuffer("abcd");
         buffer.reverse();
         System.out.println(buffer);
+        return new String();
+    }
 
-        //или
-
-
-        String string = "abcd";
-        String reverse = new StringBuffer(string).reverse().toString();
+    // или
+    /*String string = "abcd";
+    String reverse = new StringBuffer(string).reverse().toString();
         System.out.println("\nString before reverse: " + string);
         System.out.println("String after reverse: " + reverse);*/
-    }
 }
+
 

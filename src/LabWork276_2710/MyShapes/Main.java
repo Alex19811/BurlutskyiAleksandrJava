@@ -42,12 +42,12 @@ public class Main {
             System.out.println(shapes[i].toString());
        
 
-
-        for (int i = 0; i < shapes.length; i++) {
+//????????
+       /* for (int i = 0; i < shapes.length; i++) {
             System.out.println(shapes.getArea());
             shape.calcArea();
             System.out.println(shapes.sumArea());
-        }
+        }*/
 
 
 

@@ -1,5 +1,9 @@
 package LabWork2121;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class MyPhoneBook {
 
     private PhoneNumber[] phoneNumbers = new PhoneNumber[10];
@@ -24,16 +28,25 @@ public class MyPhoneBook {
 
     //2.12.2
     //??? для сортировки массива PhoneNumbers по имени (используя интерфейс Comparator и анонимный класс).
-    public String sortByName() {
-
-
-        return sortByName();
+    public void sortByName() {
+        Arrays.sort(phoneNumbers, new Comparator<PhoneNumber>() {
+            @Override
+            public int compare(PhoneNumber o1, PhoneNumber o2) {
+                return o1.getName().compareTo(o2.getName());
+            }
+        });
     }
 
     //???для сортировки PhoneNumbers и телефона (используя интерфейс Comparator и анонимный класс).
-    public String sortByPhoneNumber() {
+    public void sortByPhoneNumber() {
+        Arrays.sort(phoneNumbers, new Comparator<PhoneNumber>() {
+            @Override
+            public int compare(PhoneNumber o1, PhoneNumber o2) {
+                return  o1.getPhone().compareTo(o2.getPhone());
+            }
+        });
 
-        return sortByName();
+
     }
 
 

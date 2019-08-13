@@ -39,36 +39,30 @@ public class Main {
         shapes[8] = new Tringle("BLACK", 5, 5, 5);
 
 
-        for (int i = 0; i < shapes.length; i++){
-            shape.calcArea();
 
-        sumArea+=shapes[i].calcArea();
-           }
-        System.out.println(sumArea);
+        //shape1 - масив усіх фігуз з яких вибираємо потрібний вид : Circle, Rectangle, Throwable
+        for (Shape shape1:shapes) {
+            sumArea+=shape1.calcArea();
 
-
-
-        for (int i = 0; i < shapes.length; i++){
-            shape.calcArea();
-            if(shape instanceof Rectangle){
-                sumRectArea+=shapes[i].calcArea();
+            if(shape1 instanceof Rectangle){
+                sumRectArea+=shape1.calcArea();
             }
-            if(shape instanceof Circle){
-                sumCircleArea+=shapes[i].calcArea();
+            if(shape1 instanceof Circle){
+                sumCircleArea+=shape1.calcArea();
             }
-            if(shape instanceof Tringle){
-                sumTriangleArea+=shapes[i].calcArea();
+            if(shape1 instanceof Tringle){
+                sumTriangleArea+=shape1.calcArea();
             }
+
         }
-        System.out.println(sumArea);
-        System.out.println(sumRectArea);
-        System.out.println(sumCircleArea);
-        System.out.println(sumTriangleArea);
 
+        System.out.println( sumArea);
+        //або
+        System.out.println(sumCircleArea + sumRectArea + sumTriangleArea);
+        System.out.println(" 2 " + sumRectArea);
+        System.out.println(" 3 " + sumCircleArea);
+        System.out.println(" 4 " + sumTriangleArea);
 
-        System.out.println(circle instanceof Circle);
-        System.out.println(rectangle instanceof Rectangle);
-        System.out.println(tringle instanceof Tringle);
 
 
     }

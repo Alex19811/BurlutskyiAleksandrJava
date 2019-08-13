@@ -14,6 +14,9 @@ public class Main {
         myPhoneBook.addPhoneNumber("Vova","5");
         myPhoneBook.addPhoneNumber("Shasha","5");
         myPhoneBook.addPhoneNumber("Vova","5");
+        myPhoneBook.sortByName();
+        myPhoneBook.sortByPhoneNumber();
         myPhoneBook.printPhoneBook();
+
     }
 }

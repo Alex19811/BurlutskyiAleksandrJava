@@ -1,6 +1,6 @@
 package LabWork295.TestRegExp;
 
-import com.sun.xml.internal.fastinfoset.util.StringArray;
+
 
 public class Main {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package AudExemple;
+
 import java.math.BigDecimal;
 
 public class AnotherChild {

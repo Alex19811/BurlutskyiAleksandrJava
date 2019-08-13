@@ -1,3 +1,5 @@
+package AudExemple;
+
 import intertest.UserService;
 import intertest.handler.IDataHandler;
 import intertest.handler.impl.DBHandlerImpl;

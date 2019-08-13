@@ -2,73 +2,66 @@ package LabWork2121;
 
 public class MyPhoneBook {
 
-    private  PhoneNumber[] phoneNumbers = new PhoneNumber[10];
-
-
-
+    private PhoneNumber[] phoneNumbers = new PhoneNumber[10];
+    int anchor = 0;
 
     //3) Добавить в класс MyPhoneBook public метод  addPhoneNumber)
     // с двумя параметрами типа String (имя, телефон),
     // которые используют его для создания нового объекта PhoneNumber и передать его следующему
     //доступному элементу массива.
 
-    public String addPhoneNumber() {
-
-
-         phoneNumbers[0] = new phoneNumber("Vova", "123");
-//        phoneNumbers[1] = new phoneNumber();
-//        phoneNumbers[2] = new phoneNumber();
-//        phoneNumbers[3] = new phoneNumber();
-//        phoneNumbers[4] = new phoneNumber();
-//        phoneNumbers[5] = new phoneNumber();
-//        phoneNumbers[6] = new phoneNumber();
-//        phoneNumbers[7] = new phoneNumber();
-//        phoneNumbers[8] = new phoneNumber();
-//        phoneNumbers[9] = new phoneNumber();
-
-
-//        for (int i = 0; i < phoneNumbers.length; ++i) {
-//            phoneNumbers[i] = addPhoneNumber();
-//            System.out.print(phoneNumbers[i] + "  ");
-//        }
-
-        return new String();
+    public void addPhoneNumber(String name, String phone) {
+        phoneNumbers[anchor] = new PhoneNumber(name, phone);
+        anchor++;
     }
 
-    public String printPhoneBook() {
-        for (int i = 0; i < phoneNumbers.length; i++)
-            System.out.println(phoneNumbers[i].toString());
-        return new String();
+    public void printPhoneBook() {
+        for (int i = 0; i < anchor; i++)
+            System.out.println(phoneNumbers[i]);
+
     }
+
+
     //2.12.2
     //??? для сортировки массива PhoneNumbers по имени (используя интерфейс Comparator и анонимный класс).
-    public String sortByName () {
+    public String sortByName() {
 
-        return sortByName();
-     }
-//???для сортировки PhoneNumbers и телефона (используя интерфейс Comparator и анонимный класс).
-    public String sortByPhoneNumber () {
 
         return sortByName();
     }
 
+    //???для сортировки PhoneNumbers и телефона (используя интерфейс Comparator и анонимный класс).
+    public String sortByPhoneNumber() {
+
+        return sortByName();
+    }
 
 
     public static class PhoneNumber {
         String name;
         String phone;
 
-        public PhoneNumber() {
+        public PhoneNumber(String name, String phone) {
             this.name = name;
-            this.phone = phone;
+            this.phone =phone;
         }
 
-        public String getName() {
+        public String getName()
+        {
             return name;
         }
 
-        public String getPhone() {
+        public String getPhone()
+        {
             return phone;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public void setPhone(String phone) {
+            this.phone = phone;
         }
 
         @Override
@@ -77,13 +70,6 @@ public class MyPhoneBook {
                     "name='" + name + '\'' +
                     ", phone='" + phone + '\'' +
                     '}';
-        }
-    }
-
-
-    private class phoneNumber extends PhoneNumber {
-        public phoneNumber(String name, String phone) {
-            super();
         }
     }
 }

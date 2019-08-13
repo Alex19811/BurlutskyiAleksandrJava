@@ -1,10 +1,6 @@
 package LabWork213;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
-import java.util.Scanner;
-
-import static java.lang.Integer.parseInt;
 
 public class Main {
     static Computer[] computers = new Computer[5];

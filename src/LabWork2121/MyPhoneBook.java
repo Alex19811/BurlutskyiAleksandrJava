@@ -2,7 +2,15 @@ package LabWork2121;
 
 public class MyPhoneBook {
 
-    private PhoneNumber[] phoneNumbers = new PhoneNumber[10];
+    private  PhoneNumber[] phoneNumbers = new PhoneNumber[10];
+
+
+
+
+    //3) Добавить в класс MyPhoneBook public метод  addPhoneNumber)
+    // с двумя параметрами типа String (имя, телефон),
+    // которые используют его для создания нового объекта PhoneNumber и передать его следующему
+    //доступному элементу массива.
 
     public String addPhoneNumber() {
 
@@ -32,6 +40,19 @@ public class MyPhoneBook {
             System.out.println(phoneNumbers[i].toString());
         return new String();
     }
+    //2.12.2
+    //??? для сортировки массива PhoneNumbers по имени (используя интерфейс Comparator и анонимный класс).
+    public String sortByName () {
+
+        return sortByName();
+     }
+//???для сортировки PhoneNumbers и телефона (используя интерфейс Comparator и анонимный класс).
+    public String sortByPhoneNumber () {
+
+        return sortByName();
+    }
+
+
 
     public static class PhoneNumber {
         String name;

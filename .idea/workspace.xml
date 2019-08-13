@@ -17,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LabWork2121/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabWork2121/MyPhoneBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/src/LabWork2103/MyShapes/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2103/MyShapes/Shape.java" />
         <option value="$PROJECT_DIR$/src/AAAAAAAAA/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2121/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2121/MyPhoneBook.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2121/Main.java" />
       </list>
     </option>
   </component>
@@ -117,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,27 +135,12 @@
               <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LabWork281" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LabWork281" type="462c0819:PsiDirectoryNode" />
-              <item name="MyShapes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LabWork2121" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,11 +291,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -471,14 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565698506456</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="13082019">
+      <created>1565699708134</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1565699708134</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20307444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20631067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -487,7 +481,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -841,17 +835,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2121/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork2121/MyPhoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="476">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2121/MyPhoneBook.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork2121/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>

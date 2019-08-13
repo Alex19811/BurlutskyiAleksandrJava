@@ -4,8 +4,10 @@ public class MyPhoneBook {
 
     private PhoneNumber[] phoneNumbers = new PhoneNumber[10];
 
-    public PhoneNumber addPhoneNumber() {
-       // phoneNumbers[0] = new phoneNumber("ddd", "ddd");
+    public String addPhoneNumber() {
+
+
+         phoneNumbers[0] = new phoneNumber("Vova", "123");
 //        phoneNumbers[1] = new phoneNumber();
 //        phoneNumbers[2] = new phoneNumber();
 //        phoneNumbers[3] = new phoneNumber();
@@ -17,12 +19,12 @@ public class MyPhoneBook {
 //        phoneNumbers[9] = new phoneNumber();
 
 
-        for (int i = 0; i < phoneNumbers.length; ++i) {
-            phoneNumbers[i] = addPhoneNumber();
-            System.out.print(phoneNumbers[i] + "  ");
-        }
+//        for (int i = 0; i < phoneNumbers.length; ++i) {
+//            phoneNumbers[i] = addPhoneNumber();
+//            System.out.print(phoneNumbers[i] + "  ");
+//        }
 
-        return new PhoneNumber();
+        return new String();
     }
 
     public String printPhoneBook() {
@@ -59,7 +61,7 @@ public class MyPhoneBook {
 
 
     private class phoneNumber extends PhoneNumber {
-        public phoneNumber(String ddd, String ddd1) {
+        public phoneNumber(String name, String phone) {
             super();
         }
     }

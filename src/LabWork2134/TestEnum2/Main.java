@@ -24,7 +24,7 @@ public class Main {
 
         for (Suit suit : suits) {
             for (Rank rank : ranks) {
-                boolean add = newDeck.add(new Card(rank, suit));
+              newDeck.add(new Card(rank, suit));
             }
         }
 

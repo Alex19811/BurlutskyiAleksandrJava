@@ -8,7 +8,7 @@ public class Main {
         }
 
     }
-    public enum MyDayOfWeek {SUNDAY, MONDAY}
+    public enum MyDayOfWeek {SUNDAY, MONDAY,TUESDAY, WEDNESDAY, THURSDAY,FRIDAY, SATURDAY}
 
 
 }

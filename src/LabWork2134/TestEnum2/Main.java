@@ -16,43 +16,22 @@ public class Main {
 
     public static void main(String[] args) {
 
+//        List<Card> cards = new ArrayList<Card>( );
+//
+//        Rank[] ranks = Rank.values();
+//        Suit[] suits = Suit.values();
 
-        List<Card> newDeck = new ArrayList<Card>( );
-
-        Rank[] ranks = Rank.values();
-        Suit[] suits = Suit.values();
-
-        for (Suit suit : suits) {
-            for (Rank rank : ranks) {
-              newDeck.add(new Card(rank, suit));
+        for (Suit s : Suit.values()) {
+            for (Rank r : Rank.values()) {
+                Card c = new Card(s, r);
+                //System.out.println(c);
             }
-        }
-
-        int n = newDeck.size();
-
-        for (int i = 0; i < n ; i++) {
-            System.out.println((i + 1)  + ": " + newDeck.get(i));
         }
     }
 }
 
 
 
-       /* *//*
-        for (Suit s : Suit.values()) {
-            for (Rank r : Rank.values()) {
-                Card c = new Card(s, r);
-            }
-            System.out.println(c);
-        }
-    }
-
-    private List<Card> cards = new ArrayList<>();
-
-    public void shuffle() {
-        Collections.shuffle(Collections.singletonList(this.cards));
-    }
-    */
 
 
 

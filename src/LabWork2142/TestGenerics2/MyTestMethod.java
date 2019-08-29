@@ -1,4 +1,3 @@
-/*
 package LabWork2142.TestGenerics2;
 
 public class MyTestMethod {
@@ -17,4 +16,4 @@ public class MyTestMethod {
 
         }
     }
-}*/
+}

@@ -23,7 +23,7 @@ public class Main {
 
         for (Suit s : Suit.values()) {
             for (Rank r : Rank.values()) {
-                Card c = new Card(s, r);
+                //  Card c = new Card(s, r);
                 //System.out.println(c);
             }
         }
@@ -37,7 +37,8 @@ public class Main {
 
 
 
-      /*  int[] deck = new int[52];
+
+ /* int[] deck = new int[52];
         String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
         String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
 
@@ -60,7 +61,13 @@ public class Main {
             String rank = ranks[deck[i] % 13];
             System.out.println(rank + " of " + suit);
         }
-    }*/
+    }
+
+    */
+
+
+
+
 
 //        array card = new Card() {
 //        }

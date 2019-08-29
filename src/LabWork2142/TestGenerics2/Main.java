@@ -1,3 +1,4 @@
+/*
 package LabWork2142.TestGenerics2;
 
 import LabWork2141.TestGenerics1.MyTuple;
@@ -12,3 +13,4 @@ public class Main {
     }
 
 }
+*/

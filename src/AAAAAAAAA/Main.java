@@ -2,26 +2,153 @@ package AAAAAAAAA;
 
 public class Main {
     public static void main(String[] args) {
+
+
+      /*  a();
+    }
+        public static void a () {
+            int k = 10;
+            switch (k) {
+                default:
+                    System.out.println("This");
+                    break;
+                    case 10:
+                    System.out.println("ten");
+                    case 20:
+                    System.out.println("twenty");
+                    break;
+
+                }
+            }
+        }
+*/
+
+
+/*
+
+      for (int i=12; i>0; i-=3) {
+
+                System.out.print(i);
+          System.out.println("");
+            }
+        }}
+*/
+
+
+        for (int ctr = 0; ctr < 5; ++ctr) {
+            System.out.print(ctr);
+        }
+    }
+}
+
+
+       /* String result = "1";
+        int score = 10;
+        if ((score = score + 10) == 100)
+            result = "A";
+        if ((score = score + 29) == 50)
+            result = "B";
+        if ((score = score + 200) == 10)
+            result = "C";
+        else
+            result = "F";
+        System.out.println(result + ":" + score);*/
+
+
+        /*
+int num = 10;
+do{
+num++;
+}while (++num>20);
+        System.out.println(num);
+    }
+*/
+
+        /*byte b = 1;
+        while (b < i) {
+            b = (byte) (++i * 2);
+            System.out.println(b + ",+i");
+        }
+        int i = 51;
+    }*/
+
+
+
+/*
+        int num = 9;
+        boolean divisibleBy7 = false;
+        while (!divisibleBy7) {
+            System.out.print(num);
+            if (num % 7 == 0)
+            divisibleBy7 = true;
+            --num;
+        }
+    }
+}
+*/
+/*
+        int i = 4;
+float f = 4.3;
+double d = 1.8;
+int c=0;
+if (i==f)
+    c++;
+if(((int)(f+d))==((int)f+(int)d))
+    c+=2;
+
+
+            System.out.println(c);}*/
+
+        /*boolean b = true;
+        boolean b2=true;
+        if (b==b2)
+        {
+            System.out.println("true");
+        }
+*/
+       /* class P{
+            boolean tested;
+            public void setTested (boolean val){
+                tested=val;
+
+            }
+
+            public boolean isTested() {
+                return tested;
+            }
+        }*/
+
+
+
+
+        /*int i = 10;
+        do
+            while (i < 15)
+                i = i + 20;
+        while (i < 2);
+        System.out.println(i);
+*/
+
+
+
+
+
+
 //String letters = "ABCAB";
 //
 //        System.out.println(letters.startsWith("Ab"));
 
-        //8????????
-        //String result = "Sunday".replace(' ', 'Z').trim().concat("M n");
+//8????????
+//String result = "Sunday".replace(' ', 'Z').trim().concat("M n");
 //        System.out.println(result);
 
-      //  System.out.println("Morning"==morning2);
-        //String letters= "ABCAB";
+//  System.out.println("Morning"==morning2);
+//String letters= "ABCAB";
 //        System.out.println(letters.substring(0,2).startsWith('A'));
 
 
-
-        //String M1 = "Mo";
+//String M1 = "Mo";
 //        System.out.println("Mo"== M1);
-
-
-
-
 
 
 //StringBuilder sb2 = new StringBuilder("123");
@@ -33,10 +160,6 @@ public class Main {
 //        String str6 = new String(sd2);
 //        String empName=null;
 //        //System.out.println(sb2);
-
-
-
-
 
 
 //        Double d1 = Double.parseDouble("3.14");
@@ -77,8 +200,5 @@ public class Main {
 //        System.out.println(Integer.parseInt("12ABCD"));
 //        System.out.println(Integer.parseInt("+123"));
 //        System.out.println(Integer.parseInt("-123"));
-    }
 
-
-}
 

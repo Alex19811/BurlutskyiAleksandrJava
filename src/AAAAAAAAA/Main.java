@@ -1,7 +1,149 @@
 package AAAAAAAAA;
 
-public class Main {
-    public static void main(String[] args) {
+
+
+
+//    {
+//        System.out.println("non");
+//    }
+//
+//    static {
+//        System.out.println("Static");
+//    }
+//
+//}
+//    Boo(String s) {
+//        this.s = s;
+//        System.out.println("Con");}
+//    {
+//        System.out.println("non");
+//    }
+        //System.out.println("Cons");
+
+
+
+
+//    short b;
+//
+//    Boo() {
+//        this.b = 30;
+//    }
+//
+//    {
+//        b = 10;
+//    }
+
+class Boo {
+    {
+
+        System.out.println("n");
+ }
+static  {
+       System.out.println("s");
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Foo f1= new Foo();
+            Foo f2= new Foo();
+            System.out.println(f1.i+"");
+            System.out.println(f2.i);*/
+
+
+
+/*
+        Employe e = new Employe("S",68);
+        System.out.println(e.name);
+    }
+}
+
+public class Employe {
+    String name;
+    int age;
+
+   public void Employe(String newName, int newAge) {
+        name = newName;
+        age = newAge;
+    }
+
+
+}
+*/
+
+
+
+
+
+
+     /*   Employe e = new Employe("Kate", 18);
+        System.out.println(e.name);
+
+        *//*Employee e = new Employee("Java");
+    }
+*//*
+    }
+}
+class Employe {
+    String name;
+    int age;
+
+    public void  Employe(String newName, int newAge) {
+        name = newName;
+        age = newAge;
+    }
+}*/
+
+
+
+
+
+
+
+        /*double doThat1 ( int i1, int i2){
+            return 1.4;
+        }
+        byte doThat22 () {
+            return 1;
+        }
+        doThat3(String s, int i){
+        }
+        void doThat5 (String s){
+        }*/
+
+  /* public int DDD(String year, int...days){
+       int daysOff=0;
+   for int i =0; i<days.lenght; i++)
+   daysOff+=days [i];
+return daysOff;
+   }*/
+
+
+     /*Main a = new Main();
+     a.met(10, 1.5);
+    }
+    void met (int i, String s){
+
+        System.out.println("Yo man");
+    }
+    void met (int a, byte b){
+
+        System.out.println("Yo women");
+    }
+    void met (int i, int b){
+
+        System.out.println("Yo!");
+    }*/
 
 
       /*  a();
@@ -35,11 +177,10 @@ public class Main {
 */
 
 
-        for (int ctr = 0; ctr < 5; ++ctr) {
+        /*for (int ctr = 0; ctr < 5; ++ctr) {
             System.out.print(ctr);
-        }
-    }
-}
+        }*/
+
 
 
        /* String result = "1";
@@ -128,10 +269,6 @@ if(((int)(f+d))==((int)f+(int)d))
         while (i < 2);
         System.out.println(i);
 */
-
-
-
-
 
 
 //String letters = "ABCAB";

@@ -1,12 +1,7 @@
+/*
 
 package LabWork2134.TestEnum2;
 
-import com.sun.prism.impl.ps.CachingShapeRep;
-
-import javax.smartcardio.Card;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class Main {
 
@@ -29,6 +24,7 @@ public class Main {
         }
     }
 }
+*/
 
 
 
@@ -38,7 +34,7 @@ public class Main {
 
 
 
- /* int[] deck = new int[52];
+ /*int[] deck = new int[52];
         String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
         String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
 
@@ -62,8 +58,9 @@ public class Main {
             System.out.println(rank + " of " + suit);
         }
     }
+*/
 
-    */
+
 
 
 

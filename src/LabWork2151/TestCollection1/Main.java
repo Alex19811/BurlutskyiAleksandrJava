@@ -19,7 +19,7 @@ public class Main {
         myColl.add("number_8");
         myColl.add("number_9");
         myColl.add("number_10");
-        System.out.println(myColl);
+       // System.out.println(myColl);
         Iterator<String> itr = myColl.iterator();
         while (itr.hasNext());
         String element =itr.next();

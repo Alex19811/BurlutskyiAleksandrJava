@@ -1,12 +1,11 @@
 package LabWork2157;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class PracticeWork1 {
+public class PracticeWork2 {
     public static void main(String[] args) {
-        List<String> myColl = new ArrayList<>();
+        List<String> myColl = new LinkedList<>();
         myColl.add("0");
         myColl.add("1");
         myColl.add("2");

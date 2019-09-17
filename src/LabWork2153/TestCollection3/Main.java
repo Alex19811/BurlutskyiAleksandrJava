@@ -42,6 +42,15 @@ public class Main {
             System.out.println(myCollec.get(i));
 
 
+//         ArrayList favouritelist = new ArrayList();
+//// метод добавляет элементы ‘favouriteCharacters’ в ‘favouritelist’
+//        private void m includeCharacters(String[]favouriteCharacters)
+//        {
+//            for (i = 0; i < favouriteCharacters.length; i++) {
+//                // добавление элементов по одному из массива ‘favouriteCharacters’
+//                favouritelist.add(favouriteCharacters[i]);
+//                printCharacters(i);
+
         Iterator<String> itr = myColl.iterator();
         while (itr.hasNext()) ;
         String element = itr.next();

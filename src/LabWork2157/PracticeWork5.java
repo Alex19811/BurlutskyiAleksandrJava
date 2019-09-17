@@ -3,7 +3,7 @@ package LabWork2157;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PracticeWork3 {
+public class PracticeWork5 {
     public static void main(String[] args) {
         List<String> myColl = new ArrayList<>();
         myColl.add("0");
@@ -18,12 +18,9 @@ public class PracticeWork3 {
         myColl.add("9");
         myColl.add("10");
         System.out.println(myColl);
-//Поменять местами элементы коллекции 0 с 9 и 1 с 8
-        myColl.set(0,"9");
-        myColl.set(9,"0");
-        myColl.set(1,"8");
-        myColl.set(8,"1");
-        System.out.println(myColl);
+        //Вывести коллекцию в обратном порядке
+        for (int i = myColl.size() - 1; i >= 0; i--)
+            System.out.println(myColl.get(i));
 
     }
 }

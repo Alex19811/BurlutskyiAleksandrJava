@@ -1,9 +1,6 @@
 package LabWork2151.TestCollection1;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,13 +16,18 @@ public class Main {
         myColl.add("number_8");
         myColl.add("number_9");
         myColl.add("number_10");
-       // System.out.println(myColl);
+        System.out.println(myColl);
+        for (int i = 0; i <= 10; i++)
+            System.out.println(myColl.get(i));
+
         Iterator<String> itr = myColl.iterator();
-        while (itr.hasNext());
-        String element =itr.next();
+        while (itr.hasNext()) ;
+        String element = itr.next();
         //????????????
         System.out.println("number_" + element);
 
     }
-
 }
+
+
+

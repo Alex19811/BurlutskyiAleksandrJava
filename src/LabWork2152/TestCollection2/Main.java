@@ -4,25 +4,28 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> myColl = new LinkedList<>();
-        myColl.add("number_0");
-        myColl.add("number_1");
-        myColl.add("number_2");
-        myColl.add("number_3");
-        myColl.add("number_4");
-        myColl.add("number_5");
-        myColl.add("number_6");
-        myColl.add("number_7");
-        myColl.add("number_8");
-        myColl.add("number_9");
-        myColl.add("number_10");
-        System.out.println(myColl);
+        List<String> myCollection = new ArrayList<>();
+
+//заполнить коллекцию
+        System.out.println(myCollection);
+        for (int i = 0; i <= 10; i++) {
+            myCollection.add("number_" + i);
+        }
+
+        Iterator<String> itr = myCollection.iterator();
+        while (itr.hasNext()) {
+
+            System.out.println(itr.next());
+        }
 
 //Перемешать коллекцию
-        Collections.shuffle(myColl);
+        Collections.shuffle(myCollection);
         for (int i = 0; i <= 10; i++) {
-            System.out.println(myColl.get(i));
+            System.out.println(myCollection.get(i));
 
         }
+        //или Перемешать коллекцию
+        Collections.shuffle(myCollection);
+        System.out.println(myCollection);
     }
 }

@@ -1,26 +1,32 @@
 package LabWork2157;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class PracticeWork5 {
     public static void main(String[] args) {
-        List<String> myColl = new ArrayList<>();
-        myColl.add("0");
-        myColl.add("1");
-        myColl.add("2");
-        myColl.add("3");
-        myColl.add("4");
-        myColl.add("5");
-        myColl.add("6");
-        myColl.add("7");
-        myColl.add("8");
-        myColl.add("9");
-        myColl.add("10");
-        System.out.println(myColl);
-        //Вывести коллекцию в обратном порядке
-        for (int i = myColl.size() - 1; i >= 0; i--)
-            System.out.println(myColl.get(i));
+        List<String> myCollection = new ArrayList<>();
+        for (int i = 0; i<=10; i++){
+            myCollection.add(" " +i);
+        }
+        Iterator<String> itr1 = myCollection.iterator();
+
+        while (itr1.hasNext()) {
+            System.out.println(itr1.next());
+        }
+        ListIterator<String> listIterator = myCollection.listIterator();
+        while (listIterator.hasNext()) {
+            String element = listIterator.next();
+            listIterator.set(element + " ");
+        }
+        System.out.print("Измененный arrayList в обратном порядке: ");
+        while (listIterator.hasPrevious()) {
+            String element = listIterator.previous();
+            System.out.print(element + " ");
+        }
+
+        //или Вывести коллекцию в обратном порядке
+        Collections.reverse(myCollection);
+        System.out.println(myCollection);
 
     }
 }

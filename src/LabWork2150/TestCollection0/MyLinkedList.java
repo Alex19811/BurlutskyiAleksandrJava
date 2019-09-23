@@ -11,13 +11,12 @@ public class MyLinkedList<E, _> {
     public boolean add(E value) {
         if (head == null) {
             head = new Node(value);
-        }
-        else {
+        } else {
             Node current = head;
-            while (current.next != null){
-                current=current.next;
+            while (current.next != null) {
+                current = current.next;
             }
-                current.next = new Node(value);
+            current.next = new Node(value);
         }
 
         return false;
@@ -27,11 +26,12 @@ public class MyLinkedList<E, _> {
         Node current = head;
         while (current != null) {
             System.out.println(current.value);
-            current=current.next;
+            current = current.next;
 
         }
     }
-    public  int removeElement(E elementToRemove ) {
+
+    public int removeElement(E elementToRemove) {
         Node current = head;
         Node prev = null;
         int counter = 0;
@@ -40,8 +40,8 @@ public class MyLinkedList<E, _> {
             if (current.value.equals(elementToRemove)) {
                 if (prev == null) {
                     head = current.next;
-                }
-                else {prev.next = current.next;
+                } else {
+                    prev.next = current.next;
 
 
                 }

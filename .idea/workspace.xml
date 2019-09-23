@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06102d-b6c6-431b-87ec-c2019e4edff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabWork2156/TestMap1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabWork2156/TestMap1/MyTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2150/TestCollection0/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2150/TestCollection0/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2150/TestCollection0/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2150/TestCollection0/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2151/TestCollection1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2151/TestCollection1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2152/TestCollection2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2152/TestCollection2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2153/TestCollection3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2153/TestCollection3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2157/PracticeWork1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2157/PracticeWork1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2157/PracticeWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2157/PracticeWork2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2157/PracticeWork3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2157/PracticeWork3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2157/PracticeWork4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2157/PracticeWork4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2157/PracticeWork5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2157/PracticeWork5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2157/PracticeWork6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2157/PracticeWork6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2157/PracticeWork7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2157/PracticeWork7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,16 +38,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork2152/TestCollection2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/Random.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabWork2156/TestMap1/MyTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -143,11 +141,11 @@
         <option value="$PROJECT_DIR$/src/LabWork2157/PracticeWork5.java" />
         <option value="$PROJECT_DIR$/src/LabWork2152/TestCollection2/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java" />
         <option value="$PROJECT_DIR$/src/LabWork2153/TestCollection3/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2156/TestMap1/Pet.java" />
         <option value="$PROJECT_DIR$/src/LabWork2156/TestMap1/MyTranslator.java" />
         <option value="$PROJECT_DIR$/src/LabWork2156/TestMap1/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java" />
       </list>
     </option>
   </component>
@@ -165,7 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,19 +216,13 @@
               <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TestMap1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LabWork2157" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LabWork235.Main" />
       <module name="untitled104" />
@@ -391,8 +383,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.PracticeWork6" />
@@ -606,14 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568736925944</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="17092019">
+      <created>1569228116578</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1569228116579</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23381877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23786408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -688,13 +687,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="17092019" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LabWork281/MyShapes/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork281/MyShapes/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -941,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2152/TestCollection2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork235/MyWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -990,10 +975,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork2156/TestMap1/Pet.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/Random.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2156/TestMap1/MyTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2156/TestMap1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2152/TestCollection2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2153/TestCollection3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1007,31 +1017,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2153/TestCollection3/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2156/TestMap1/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2156/TestMap1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2156/TestMap1/MyTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1085,7 +1074,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BurlutskyiAleksandrJava</last-edited>
+          <last-edited>untitled104</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

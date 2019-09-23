@@ -21,12 +21,18 @@ public class MyNumGenerator {
     }
 
     void generateDistinct() {
-
-
         for (int i = numOfElm; i <= maxNumb; i++) {
-            i = (int) (Math.random() * 100);
+            maxNumb = (int) (Math.random() * 64);
             System.out.println(i);
         }
+
+        /*// Создать новый экземпляр класса
+        Random. Random random = new Random () ;
+        // Генерирует случайное целое число
+        int myInt = ((Random) random).nextInt () ;
+        System.out.println(myInt ) ; // Генерирует случайное значение Double double myDouble = random.nextDouble () ; Система . out .println ( myDouble ) ; // Генерирует случайное число с плавающей точкой myFloat = random.nextFloat
+
+*/
 
     }
 }

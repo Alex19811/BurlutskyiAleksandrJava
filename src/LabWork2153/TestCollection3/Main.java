@@ -35,12 +35,14 @@ public class Main {
         }
 //??????????
         ListIterator<String> iterator = list2.listIterator();
-        int i=0;
+//        int i=0;
         while(iterator.hasNext()){
-            iterator.next();
-            iterator.add(Integer.toString(i++));
+//            iterator.next();
+//            iterator.add(Integer.toString(i++));
             System.out.println(iterator.next());
         }
+
+
 
 //        list2.addLast(String.valueOf(list1));
 //        System.out.println(list2);

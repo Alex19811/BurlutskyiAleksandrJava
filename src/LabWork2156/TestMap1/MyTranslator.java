@@ -2,8 +2,6 @@ package LabWork2156.TestMap1;
 
 
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 import java.util.Scanner;
 
 
@@ -11,25 +9,28 @@ public class MyTranslator {
 
     HashMap<String, String> map1 = new HashMap<>();
 
-//    Scanner sc = new Scanner(System.in);
-//
-//    {
-//        System.out.println("Введите слово:");
-//
-//        if (sc.hasNextInt()) {
-//            int number = sc.nextInt();
-//            System.out.println("Спасибо! Вы ввели слово" + number);
-//        } else {
-//            System.out.println("Извините, но это явно не слово. Перезапустите программу и попробуйте снова!");
-//        }
-//
-//    }
-
-    String addNewWord(String en, String ru) {
+    String addNewWord (String en, String ru){
         // System.out.println(en + " "+ ru);
         return new String();
 
     }
+
+    Scanner sc = new Scanner(System.in);
+
+    {
+        System.out.println("Введите слово:");
+
+        if (sc.hasNextInt()) {
+            int n = sc.nextInt();
+            System.out.println("Спасибо! Вы ввели слово" + n);
+//        } else {
+//            System.out.println("Извините, но это явно не слово. Перезапустите программу и попробуйте снова!");
+//        }
+
+        }
+
+
+
 
 
 //    String translate(String en) {
@@ -42,5 +43,6 @@ public class MyTranslator {
 //        return new String ru;
 //    }
 
+    }
 }
 

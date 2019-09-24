@@ -26,12 +26,17 @@ public class MyNumGenerator {
             System.out.println(i);
         }
 
-        /*// Создать новый экземпляр класса
-        Random. Random random = new Random () ;
+        // Создать новый экземпляр класса
+      /*  Random random = new Random () ;
         // Генерирует случайное целое число
         int myInt = ((Random) random).nextInt () ;
-        System.out.println(myInt ) ; // Генерирует случайное значение Double double myDouble = random.nextDouble () ; Система . out .println ( myDouble ) ; // Генерирует случайное число с плавающей точкой myFloat = random.nextFloat
-
+        System.out.println(myInt ) ;
+        // Генерирует случайное значение
+        double myDouble = ((Random) random).nextDouble () ;
+        System.out.println( myDouble ) ;
+        // Генерирует случайное число с плавающей точкой
+        float myFloat = ((Random) random).nextFloat();
+        System.out.println();
 */
 
     }

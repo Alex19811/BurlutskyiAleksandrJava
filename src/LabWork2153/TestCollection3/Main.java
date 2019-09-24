@@ -25,20 +25,32 @@ public class Main {
         }
 
         //добавить эллементы одного списка в другой
+        list2.addAll(list1);
 
-        list2.addLast(String.valueOf(list1));
-        System.out.println(list2);
+        Iterator<String> itr3 = list2.iterator();
 
-
-    }
-}
-
+        while (itr3.hasNext()) {
+            System.out.println(itr3.next());
+            //System.out.println("шэлементы list1 в list2" + list2);
+        }
 //??????????
-//        ListIterator<String> iterator = list1.listIterator();
-//        int i=0;
-//        while(iterator.hasNext()){
-//            iterator.next();
-//            iterator.add(Integer.toString(i++));
-//            System.out.println(iterator.next());
-//        }
+        ListIterator<String> iterator = list2.listIterator();
+        int i=0;
+        while(iterator.hasNext()){
+            iterator.next();
+            iterator.add(Integer.toString(i++));
+            System.out.println(iterator.next());
+        }
+
+//        list2.addLast(String.valueOf(list1));
+//        System.out.println(list2);
+
+//???????????
+        //добавить эллементы одного списка в другой в обратном порядке
+
+        }
+    }
+
+
+
 

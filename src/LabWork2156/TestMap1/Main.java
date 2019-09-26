@@ -6,14 +6,17 @@ public class Main {
     public static void main(String[] args) {
         MyTranslator myTranslator = new MyTranslator();
         myTranslator.addNewWord("Cat", "Кот");
+        myTranslator.addNewWord("Mouse", "Мышь");
 
-        System.out.println(myTranslator);
-       // myTranslator.translate("Cat");
+        myTranslator.translate("Cat");
+        myTranslator.translate("Mouse");
 
-
-       /* System.out.print("Введіть будь-яке ціле число від 1 до 10: ");
+        System.out.print("Введите слово: ");
         Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
-        System.out.println ("Ви ввели число " + number);*/
+        String word = scan.nextLine();
+        System.out.println("Ви ввели слово " + word);
+        myTranslator.translate(word);
+
+
     }
 }

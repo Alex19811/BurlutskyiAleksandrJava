@@ -16,18 +16,14 @@ public class Test {
 
         if (n < 10) {
             System.out.println("Ви ввели число < 10");
-            if (n >= 10) {
-                System.out.println(calculateFactorial(n));
-            }
         }
-
+            if (n >= 10) {
+                if (n <= 50)
+                System.out.println(calculateFactorial(n));
+        }
         if (n > 50) {
             System.out.println("Ви ввели число > 50");
-            if (n <= 50) {
-                System.out.println(calculateFactorial(n));
-            }
         }
-
     }
 
     static int calculateFactorial(int n) {

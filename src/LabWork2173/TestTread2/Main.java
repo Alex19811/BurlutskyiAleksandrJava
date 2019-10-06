@@ -11,9 +11,9 @@ public class Main {
 
 
         mySumCount.setStartindex(0);
-        mySumCount.setStopindex(100);
+        mySumCount.setStopindex(1000);
         mySumCount1.setStartindex(0);
-        mySumCount1.setStopindex(100);
+        mySumCount1.setStopindex(1000);
 
         mySumCount.myArrayAdd();
         mySumCount1.myArrayAdd();

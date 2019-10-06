@@ -27,7 +27,8 @@ public class MySumCount extends Thread {
         this.startindex = startindex;
     }
 
-    public void setStopindex(int stopindex) {
+    public void setStopindex(int stopindex)
+    {
         this.stopindex = stopindex;
     }
 
@@ -35,7 +36,8 @@ public class MySumCount extends Thread {
 
     public void myArrayAdd() {
         for (int i = getStartindex(); i <= getStopindex(); i++) {
-            myArray.add((int) (Math.random() * 1000));
+//getStopindex = ((int) (Math.random() * 1000));
+            myArray.add(i);
             System.out.println(i);
             System.out.println(myArray);
         }
@@ -56,9 +58,16 @@ public class MySumCount extends Thread {
 
     @Override
     public void run() {
-        for (int i = 0; i >= 1000; i++) {
+
+        for (int i = 0; i <= myArray.size(); i++) {
             for (int num : myArray)
-                resultSum = resultSum + num;
+                resultSum += myArray.get(i);
+            //  resultSum = resultSum + num;
+            try{
+                sleep(1000);
+            } catch (InterruptedException e){
+                e.printStackTrace();
+            }
             System.out.println(resultSum);
 
 

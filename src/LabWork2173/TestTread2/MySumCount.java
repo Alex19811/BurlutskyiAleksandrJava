@@ -4,16 +4,20 @@ import java.util.ArrayList;
 
 
 public class MySumCount extends Thread {
-    int startindex;
+    public int startindex;
     int stopindex;
-    long resultSum;
+    long resultSum = 0;
 
-
-    public MySumCount(Runnable target, int startindex, int stopindex) {
-        super(target);
+    public MySumCount(int startindex, int stopindex) {
         this.startindex = startindex;
         this.stopindex = stopindex;
     }
+
+//    public MySumCount(Runnable target, int startindex, int stopindex) {
+//        super(target);
+//        this.startindex = startindex;
+//        this.stopindex = stopindex;
+//    }
 
     public int getStartindex() {
         return startindex;
@@ -27,8 +31,7 @@ public class MySumCount extends Thread {
         this.startindex = startindex;
     }
 
-    public void setStopindex(int stopindex)
-    {
+    public void setStopindex(int stopindex) {
         this.stopindex = stopindex;
     }
 
@@ -36,12 +39,14 @@ public class MySumCount extends Thread {
 
     public void myArrayAdd() {
         for (int i = getStartindex(); i <= getStopindex(); i++) {
-//getStopindex = ((int) (Math.random() * 1000));
+            // stopindex = ((int) (Math.random() * 1000));
             myArray.add(i);
-            System.out.println(i);
-            System.out.println(myArray);
+            System.out.print(" " + i);
         }
+        System.out.println();
     }
+
+
 
     public void setMyArray(ArrayList<Integer> myArray) {
         this.myArray = myArray;
@@ -58,18 +63,21 @@ public class MySumCount extends Thread {
 
     @Override
     public void run() {
-
-        for (int i = 0; i <= myArray.size(); i++) {
-            for (int num : myArray)
-                resultSum += myArray.get(i);
-            //  resultSum = resultSum + num;
-            try{
-                sleep(1000);
-            } catch (InterruptedException e){
-                e.printStackTrace();
-            }
-            System.out.println(resultSum);
-
+        for (int i = 0; i < myArray.size(); i++)
+            resultSum += myArray.get(i);
+        System.out.println("Сумма элементов массива: " + resultSum);
+    }
+}
+//        for (int i = 0; i <= myArray.size(); i++) {
+//            for (int num : myArray)
+//                resultSum += myArray.get(i);
+//            //  resultSum = resultSum + num;
+//            try{
+//                sleep(1000);
+//            } catch (InterruptedException e){
+//                e.printStackTrace();
+//            }
+//            System.out.println(resultSum);
 
 
 ////
@@ -81,18 +89,5 @@ public class MySumCount extends Thread {
 //                sum = sum + num;
 //            }
 //            System.out.println("Сумма элементов массива равна: " + sum);
-        }
 
-
-    }
-}
-//        for (int i = 10; i >= 0; i--) {
-//            System.out.println(i);
-//            //super.run();
-//            try{
-//                sleep(1000);
-//            } catch (InterruptedException e){
-//                e.printStackTrace();
-//            }
-//}
 

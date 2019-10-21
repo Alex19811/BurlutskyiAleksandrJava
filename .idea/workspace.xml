@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06102d-b6c6-431b-87ec-c2019e4edff3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LabWork2175__/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork2175__/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork2175__/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork2175__/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork2176/DiningHall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork2176/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2173/TestTread2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2173/TestTread2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabWork2173/TestTread2/MySumCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabWork2173/TestTread2/MySumCount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,17 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabWork2171/TestTread1/MyTimeBomb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" selection-start-line="10" selection-start-column="12" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LabWork2190/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="5" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -45,39 +40,38 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork2175__/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork2175__/Counter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork2176/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LabWork2173/TestTread2/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/LabWork2176/DiningHall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LabWork2173/TestTread2/MySumCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-              <folding>
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LabWork2157/PracticeWork3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="38" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -85,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="323">
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
@@ -134,15 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LabWork2103/MyShapes/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2103/MyShapes/Shape.java" />
-        <option value="$PROJECT_DIR$/src/AAAAAAAAA/Main.java" />
-        <option value="$PROJECT_DIR$/src/AudExemple/Main.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/AudExemple/AnotherChild.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2102/WrapperDemo2/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork295/TestRegExp/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork213/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork276_2710/MyShapes/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/LabWork276_2710/MyShapes/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2121/MyPhoneBook.java" />
@@ -185,14 +170,23 @@
         <option value="$PROJECT_DIR$/src/LabWork2171/TestTread1/MyTimeBomb.java" />
         <option value="$PROJECT_DIR$/src/LabWork2173/TestTread2/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2173/TestTread2/MySumCount.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2175/Counter.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2175/Storage.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2175/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2175/Printer.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2175__/Printer.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2176.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2176/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2175__/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork2176/DiningHall.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="y" value="20" />
-    <option name="width" value="1262" />
-    <option name="height" value="944" />
+    <option name="x" value="672" />
+    <option name="y" value="71" />
+    <option name="width" value="527" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +260,18 @@
               <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LabWork2175__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LabWork2176" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LabWork2181" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,6 +296,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,12 +371,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork2183.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabWork2190.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabWork2183.*" />
+          <option name="PATTERN" value="LabWork2190.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabWork2176.Main" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LabWork2176.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabWork2175__.Main" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LabWork2175__.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,33 +423,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork2181.Test" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LabWork2181.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -698,14 +717,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570394225796</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="06102019">
+      <created>1570478498845</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1570478498845</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26860842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29935277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -714,7 +740,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.34371397" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" weight="0.34347826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -733,35 +759,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.19088937" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5186084" side_tool="true" weight="0.32871974" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48139158" weight="0.3286334" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="06062019" />
@@ -784,43 +781,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="06102019" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LabWork2141.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork2141/TestGenerics1.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork2121/MyPhoneBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2131/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2141/TestGenerics1/MyTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2141/TestGenerics1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2142/TestGenerics2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork2142/TestGenerics2/MyTestMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -939,16 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2181/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork2150/TestCollection0/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1043,6 +993,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2190/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork2190/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1050,45 +1007,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2190/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2157/PracticeWork1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2157/PracticeWork2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork2157/PracticeWork3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="38" />
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork2181/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2173/TestTread2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2176.java" />
+    <entry file="file://$PROJECT_DIR$/src/LabWork2173/TestTread2/MySumCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2175__/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2175__/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork2171/TestTread1/MyTimeBomb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="10" selection-start-column="12" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="5" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1101,32 +1075,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/MyNumGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="323">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2173/TestTread2/MySumCount.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork2154/TestMyGenerator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2173/TestTread2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork2157/PracticeWork2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="102">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2157/PracticeWork1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2176/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2175__/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2175__/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2176/DiningHall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

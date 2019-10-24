@@ -39,12 +39,13 @@ public class MySumCount extends Thread {
 
     public void myArrayAdd() {
         for (int i = getStartindex(); i <= getStopindex(); i++) {
-            // stopindex = ((int) (Math.random() * 1000));
+            stopindex = (int) (Math.random() * 1000);
             myArray.add(i);
             System.out.print(" " + i);
         }
         System.out.println();
     }
+
 
 
 

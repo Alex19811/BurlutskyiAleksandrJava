@@ -1,14 +1,13 @@
-package LabWork22121_DemoSerialize;
+package LabWork22123_DemoSerialize_transient;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
-import java.io.*;
+import java.io.IOException;
+import java.io.Serializable;
 
 public class Employee implements Serializable {
     public static final long serialVersionUID = 1L;
     private String name;
     private String address;
-    private int SNN;
+    private transient int SNN;
     private int number;
 
     public Employee(String name, String address, int SNN, int number) throws IOException {

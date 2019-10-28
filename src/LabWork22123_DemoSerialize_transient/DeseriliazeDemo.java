@@ -1,6 +1,11 @@
-package LabWork22121_DemoSerialize;
+package LabWork22123_DemoSerialize_transient;
 
-import java.io.*;
+import LabWork22121_DemoSerialize.Employee;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.Serializable;
 
 public class DeseriliazeDemo extends Employee implements Serializable {
     public static void main(String[] args) throws IOException {

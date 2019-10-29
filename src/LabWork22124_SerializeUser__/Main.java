@@ -6,13 +6,30 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.RandomAccessFile;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import static com.oracle.jrockit.jfr.ContentType.Bytes;
 
 public class Main {
     public static void main(String[] args) throws IOException {
 
 
         User user = new User("Sasha", "Ivanov",25);
-        RandomAccessFile file = new RandomAccessFile("D:\\user.ser", "rw");
+        RandomAccessFile file = null;
+        file = new RandomAccessFile("D:\\user.ser", "rw");
+        file.write(new bytes []{"Ivan","Sedov","28"});
+        file.seek(0);
+        file.write(new bytes{"","",""});
+        file.seek(0);
+        byte[] buf = new byte[][30];
+        String n = String.valueOf(file.read(buf,0,3));
+        System.out.println(Arrays.toString());
+        file.close();
+
+
+
+
         String text = file.readLine();
         file.writeBytes("Gregory");
         System.out.println(file.readByte());

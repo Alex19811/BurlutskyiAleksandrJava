@@ -2,6 +2,8 @@ package LabWork22124_SerializeUser__;
 
 
 
+import com.sun.xml.internal.stream.writers.UTF8OutputStreamWriter;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -10,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import static com.oracle.jrockit.jfr.ContentType.Bytes;
-
+/*
 public class Main {
     public static void main(String[] args) throws IOException {
 
@@ -18,9 +20,9 @@ public class Main {
         User user = new User("Sasha", "Ivanov",25);
         RandomAccessFile file = null;
         file = new RandomAccessFile("D:\\user.ser", "rw");
-        file.write(new bytes []{"Ivan","Sedov","28"});
+        file.writeUTF(new String[]{"Ivan", "Sedov", "28"});
         file.seek(0);
-        file.write(new bytes{"","",""});
+        file.writeUTF({"","",""});
         file.seek(0);
         byte[] buf = new byte[][30];
         String n = String.valueOf(file.read(buf,0,3));
@@ -52,7 +54,7 @@ public class Main {
             oos.close();
         }
         System.out.println(user.toString());
-    }
+    }*/
 
 /*
     try {
@@ -86,4 +88,4 @@ public class Main {
         return bytes;
     }
 */
-}
+

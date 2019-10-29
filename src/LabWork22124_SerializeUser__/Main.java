@@ -1,4 +1,4 @@
-package LabWork22124_SerializeUser__;
+/*package LabWork22124_SerializeUser__;
 
 
 
@@ -11,7 +11,7 @@ import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static com.oracle.jrockit.jfr.ContentType.Bytes;
+import static com.oracle.jrockit.jfr.ContentType.Bytes;*/
 /*
 public class Main {
     public static void main(String[] args) throws IOException {

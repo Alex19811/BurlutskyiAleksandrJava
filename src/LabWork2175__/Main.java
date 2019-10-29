@@ -5,7 +5,10 @@ public class Main {
         Storage storage1 = new Storage();
         Counter run1 = new Counter();
         Thread thr1 = new Thread(run1);
+        Thread thr2 = new Thread(run1);
         thr1.start();
+        thr2.start();
+
     }
 
 

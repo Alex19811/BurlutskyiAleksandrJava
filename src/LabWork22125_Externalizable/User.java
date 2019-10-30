@@ -2,7 +2,7 @@ package LabWork22125_Externalizable;
 
 import java.io.*;
 
-public class User implements Externalizable {
+abstract  public class User implements Externalizable {
     String firstName;
     String lastName;
     int age;
@@ -32,13 +32,13 @@ public class User implements Externalizable {
         out.writeInt(age);
     }
 
-    @Override
-    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-
-        firstName = (String) in.readObject();
-        lastName = (String) in.readObject();
-        age = in.readInt();
-
-    }
+//    @Override
+//    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+//
+//        firstName = (String) in.readObject();
+//        lastName = (String) in.readObject();
+//        age = in.readInt();
+//
+//    }
 }
 

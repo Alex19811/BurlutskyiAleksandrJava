@@ -7,31 +7,56 @@ public class DiningHall extends Thread {
     static int pizzaNum;
     static int studentID = 1;
 
-    @Override
-    public void run() {
-        makePizza();
-        servePizza();
-        super.run();
+
+    static class makePizza extends Thread {
+        @Override
+        public void run() {
+            pizzaNum++;
+            //super.run();
+
+        }
     }
 
-    public void makePizza() {
-        pizzaNum++;
-    }
 
-    public void servePizza() {
-        String result;
-        if (pizzaNum > 0) {
-            result = "Served ";
-            pizzaNum--;
-        } else result = "Starved";
-        System.out.println(result + studentID);
-        studentID++;
+    static class servePizza extends Thread {
+        @Override
+        public void run() {
+
+            String result;
+            if (pizzaNum > 0) {
+                result = "Served ";
+                pizzaNum--;
+            } else result = "Starved";
+            System.out.println(result + studentID);
+            studentID++;
+        }
     }
 
     public static class Main {
         public static void main(String[] args) {
 
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+            new servePizza().start();
+
+            new makePizza().start();
+            new makePizza().start();
+            new makePizza().start();
+            new makePizza().start();
+            new makePizza().start();
+            new makePizza().start();
+
+/*
             DiningHall d = new DiningHall();
+            new d.start();
+
             for (int i = 0; i < 10; i++)
                 d.makePizza();
             for (int i = 1; i <= 20; i++)
@@ -66,7 +91,7 @@ public class DiningHall extends Thread {
 //                diningHall.wait();
             //}
             Thread thread2 = new Thread(diningHall12);
-            thread2.start();
+            thread2.start();*/
 
         }
 

@@ -1,43 +1,42 @@
 package LabWork22124_SerializeUser__;
 
 
-
-import com.sun.xml.internal.stream.writers.UTF8OutputStreamWriter;
-
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.io.RandomAccessFile;
-import java.util.ArrayList;
-import java.util.Arrays;
 
-import static com.oracle.jrockit.jfr.ContentType.Bytes;
-/*
+
 public class Main {
     public static void main(String[] args) throws IOException {
 
 
-        User user = new User("Sasha", "Ivanov",25);
-        RandomAccessFile file = null;
-        file = new RandomAccessFile("D:\\user.ser", "rw");
-        file.writeUTF(new String[]{"Ivan", "Sedov", "28"});
-        file.seek(0);
-        file.writeUTF({"","",""});
-        file.seek(0);
-        byte[] buf = new byte[][30];
-        String n = String.valueOf(file.read(buf,0,3));
-        System.out.println(Arrays.toString());
-        file.close();
-
-
-
-
-        String text = file.readLine();
+        User user = new User("Sasha", "Ivanov", 25);
+        RandomAccessFile file = new RandomAccessFile("D:\\user.ser", "rw");
         file.writeBytes("Gregory");
-        System.out.println(file.readByte());
+        //перемещаем «курсор» на 0-й символ.
+        file.seek(0);
+        //читаем строку, начиная с текущего положения курсора и до конца строки
+        String text = file.readLine();
+        System.out.println(text);
+        //закрываем файл
         file.close();
-        FileOutputStream fos = new FileOutputStream("D:\\user.ser");
-        ObjectOutputStream oos = new ObjectOutputStream(fos);
+
+
+        RandomAccessFile file1 = new RandomAccessFile("D:\\user.ser", "rw");
+        //читаем строку, начиная с текущего положения курсора и до конца строки
+//        file1.seek(0);
+//        String text1 = file1.readLine();
+//        System.out.println(text1);
+//        file1.read();
+        System.out.println(file1.readByte());
+        System.out.println(user.toString());
+        file1.close();
+
+    }
+}
+
+
+//        FileOutputStream fos = new FileOutputStream("D:\\user.ser");
+//        ObjectOutputStream oos = new ObjectOutputStream(fos);
 
 //??????????        2) Create a class Main with a main() method, which crehe ates an instance User and
 //        adds it to t"users.ser" file using serialization (Note, to append to a file, use class
@@ -45,16 +44,17 @@ public class Main {
 //        3) Add code in a main() method that reads from a file "users.ser" using de-serialization
 //        all users and prints them to the console.
 
-        //        ObjectOutputStream oos = new ObjectOutputStream(fos);
-        try {
-            oos.writeObject(user);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            oos.close();
-        }
-        System.out.println(user.toString());
-    }*/
+//        ObjectOutputStream oos = new ObjectOutputStream(fos);
+//        try {
+//            oos.writeObject(user);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } finally {
+//            oos.close();
+//        }
+        /*System.out.println(user.toString());
+    }
+}*/
 
 /*
     try {

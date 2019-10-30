@@ -1,6 +1,6 @@
 package LabWork2176__;
 
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+
 
 public class DiningHall extends Thread {
 
@@ -61,6 +61,8 @@ public class DiningHall extends Thread {
                 d.makePizza();
             for (int i = 1; i <= 20; i++)
                 d.servePizza();
+
+
 
             DiningHall diningHall = new DiningHall();
             DiningHall diningHall12 = new DiningHall();

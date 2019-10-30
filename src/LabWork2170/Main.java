@@ -6,7 +6,7 @@ package LabWork2170;
 import java.util.concurrent.ForkJoinPool;
 
 import static LabWork2170.SumOfNUsingForkJoin.NUM_THREADS;
-import static javafx.scene.input.KeyCode.N;
+
 
 public class Main {
     public static void main (String [] args) {

@@ -6,7 +6,10 @@ public class BankTest {
 
 
         public static void main(String[] args) {
+            int [] n = {1000,1000,1000,1000,1000};
+            Bank bank = new Bank(1,1000);
 
+            while (true);
 
 
         }

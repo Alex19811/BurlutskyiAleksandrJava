@@ -18,6 +18,8 @@ abstract public class Shape implements Drawable {
         return shapeColor;
     }
 
+    public abstract int compareTo(Object o);
+
     @Override
     public String toString() {
         System.out.println("Shape color is : " + shapeColor);

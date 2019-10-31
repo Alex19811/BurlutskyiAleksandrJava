@@ -10,8 +10,11 @@ public class Main {
 
 
         User user = new User("Sasha", "Ivanov", 25);
-        RandomAccessFile file = new RandomAccessFile("D:\\user.ser", "rw");
-        file.writeBytes("Gregory");
+        RandomAccessFile file = new RandomAccessFile("D:\\users.ser", "rw");
+        //user.setLastName("Gregory ");
+        file.writeBytes("Gregory ");
+        file.writeBytes("Petrov ");
+        file.writeBytes("22 ");
         //перемещаем «курсор» на 0-й символ.
         file.seek(0);
         //читаем строку, начиная с текущего положения курсора и до конца строки
@@ -21,7 +24,7 @@ public class Main {
         file.close();
 
 
-        RandomAccessFile file1 = new RandomAccessFile("D:\\user.ser", "rw");
+        RandomAccessFile file1 = new RandomAccessFile("D:\\users.ser", "rw");
         //читаем строку, начиная с текущего положения курсора и до конца строки
 //        file1.seek(0);
 //        String text1 = file1.readLine();

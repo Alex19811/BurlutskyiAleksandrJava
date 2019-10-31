@@ -18,6 +18,9 @@ public class Triangle {
 
     }
 
+    public Triangle(String black, int i, int i1, int i2) {
+    }
+
 
     // для формулы Герона (по 3м  сторонам)
    public double getArea () {
@@ -26,14 +29,8 @@ public class Triangle {
        System.out.println(p1);
        System.out.println(area);
        return area;
-
-
-
-
-
         }
-
-    }
+}
 
 
 

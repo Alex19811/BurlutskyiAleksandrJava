@@ -4,7 +4,7 @@ package LabWork22121_DemoSerialize;
 
 import java.io.*;
 
-public class Employee implements Serializable {
+public abstract class Employee implements Serializable {
     public static final long serialVersionUID = 1L;
     private String name;
     private String address;
@@ -67,4 +67,12 @@ public class Employee implements Serializable {
                 ", number=" + number +
                 '}';
     }
+
+    public void getSSN() {
+    }
+
+    public void setSSN(int i) {
+    }
+
+    public abstract void writeExternal(ObjectOutput out) throws IOException;
 }

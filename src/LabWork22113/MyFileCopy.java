@@ -23,13 +23,18 @@ public class MyFileCopy {
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
+                if (fis!=null)fis.close();
+                if (fos!=null)fos.close();
+
+                /*
+
                 try {
                     fis.close();
                     fos.close();
                 } catch (IOException e) {
 
                     e.printStackTrace();
-                }
+                }*/
 
             }
 

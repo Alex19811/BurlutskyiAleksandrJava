@@ -1,4 +1,4 @@
-package SQL_Tel;
+package LabWork22150;
 
 public class Humen {
 }

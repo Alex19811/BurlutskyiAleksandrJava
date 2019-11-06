@@ -2,6 +2,7 @@ package AAA_Sersalization;
 
 import java.io.*;
 import java.sql.SQLOutput;
+
 /*
 class Food implements Serializable {
     public int x, y;
@@ -21,6 +22,7 @@ class Food implements Serializable {
         s.defaultReadObject();
     }
 }
+
 */
 
 

@@ -7,7 +7,7 @@ import static java.lang.reflect.Modifier.PRIVATE;
 
 public class Main {
     public static void main(String[] args) {
-        Class userClass = Class.class;
+        Class<User> userClass = User.class;
         Field[] fields = userClass.getFields();
         System.out.println(fields.length);
         for (Field field : fields) {

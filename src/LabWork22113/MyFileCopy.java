@@ -7,7 +7,7 @@ import java.io.IOException;
 public class MyFileCopy {
 
 
-        public static void main(String[] args) {
+        public static void main(String[] args) throws IOException {
             FileInputStream fis = null;
             FileOutputStream fos = null;
 
@@ -23,18 +23,14 @@ public class MyFileCopy {
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
-                if (fis!=null)fis.close();
-                if (fos!=null)fos.close();
-
-                /*
 
                 try {
-                    fis.close();
-                    fos.close();
+                    if (fis!=null)fis.close();
+                    if (fos!=null)fos.close();
                 } catch (IOException e) {
 
                     e.printStackTrace();
-                }*/
+                }
 
             }
 

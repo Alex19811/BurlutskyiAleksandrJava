@@ -4,7 +4,11 @@ package LabWork22152_testrecflection2;
 
 
 
+import LabWork22151_testrecflection1.MyClass;
+
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.TypeVariable;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +16,14 @@ public class Main {
         class MyClass {
             String myStr = "abcd";
            private char value[];
+
+            public MyClass(String myStr) {
+                this.myStr = myStr;
+            }
+
+            public MyClass() {
+
+            }
 
             public void getDeclaredField(String a) {
             }
@@ -32,6 +44,23 @@ public class Main {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+
+        System.out.println("Public fields: ");
+        Field[] fields = myClass.getFields();
+        for (Field field : fields) {
+            Class<?> fieldsType = field.getType();
+            System.out.println("\tName: " + field.getName());
+            System.out.println("\tType: " + fieldsType.getName());
+        }
+
+        System.out.println("All fields: ");
+        fields = myClass.getDeclaredFields();
+        for (Field fieldAll : fields) {
+            Class<?> fieldsTypeAll = fieldAll.getType();
+            System.out.println("\tName: " + fieldAll.getName());
+            System.out.println("\tType: " + fieldsTypeAll.getName());
+        }
+
     }
 
 }

@@ -58,9 +58,8 @@ public class Main {
         }
         try {
             Class<?>[] paramTypes = new Class<?>[]{int.class};
-            //??????
             Constructor<?> constructor = myClass.getConstructor(paramTypes);
-            MyClass t = (MyClass) constructor.newInstance(1);
+            MyClass t = (MyClass)constructor.newInstance(1);
             System.out.println("Filds: " + t.getA() + t.getB());
 
         } catch (Exception ex) {
@@ -85,10 +84,11 @@ public class Main {
             Method method = myClass.getMethod("SetA", paramTypes);
             Object[] arguments = new Object[]{Integer.valueOf(33)};
             method.invoke(object, arguments);
-            System.out.println("A" + object.getA());
-        } catch (Exception ex) {
-            ex.printStackTrace();
+           // System.out.println("A" + object.getA());
+        } catch ( Exception ex) {
+            System.out.println(ex.toString());
         }
+
 
     }
 }

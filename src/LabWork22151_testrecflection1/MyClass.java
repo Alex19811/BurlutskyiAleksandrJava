@@ -1,10 +1,10 @@
 package LabWork22151_testrecflection1;
 
 public class MyClass {
-    private int a;
-    protected int b;
-    public int c;
-    private int d;
+    private int a=1;
+    protected int b=2;
+    public int c=3;
+    private int d=4;
 
     public int getA() {
         return a;
@@ -54,6 +54,9 @@ public class MyClass {
     public MyClass(int a, int b) {
         this.a = a;
         this.b = b;
+    }
+    public MyClass(int a) {
+        this.a = a;
     }
 
     public MyClass() {

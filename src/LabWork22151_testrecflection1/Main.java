@@ -1,7 +1,6 @@
 package LabWork22151_testrecflection1;
 
 import java.lang.reflect.*;
-import java.util.concurrent.Callable;
 
 public class Main {
     public static void main(String[] args) throws NoSuchMethodException {
@@ -84,23 +83,13 @@ public class Main {
             MyClass object = new MyClass();
             Class<?>[] paramTypes = new Class<?>[]{int.class};
             Method method = myClass.getMethod("SetA", paramTypes);
-            Object[] arguments = new Object[]{Integer.valueOf(5)};
+            Object[] arguments = new Object[]{Integer.valueOf(33)};
             method.invoke(object, arguments);
             System.out.println("A" + object.getA());
         } catch (Exception ex) {
             ex.printStackTrace();
         }
 
-        try {
-            MyClass object = new MyClass();
-
-            Field field = myClass.getDeclaredField("a");
-            field.setAccessible(true);
-            System.out.println("Private field value: " + field.getInt(object));
-      field.setInt(object,100);
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
     }
 }
 

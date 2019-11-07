@@ -1,7 +1,5 @@
 package LabWork22151_testrecflection1;
 
-import com.oracle.webservices.internal.api.databinding.DatabindingMode;
-
 public class MyClass {
     private int a;
     protected int b;

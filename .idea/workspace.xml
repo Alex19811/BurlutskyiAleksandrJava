@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06102d-b6c6-431b-87ec-c2019e4edff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LabWork22170_Streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabWork22171_TestLambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork22172_TestLambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork22174_TestStream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork22174_TestStream/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabWork22175_TestDateTime/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,49 +21,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LabWork22151_testrecflection1/MyClass.java">
+        <entry file="file://$PROJECT_DIR$/src/LabWork22171_TestLambda/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LabWork22151_testrecflection1/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LabWork22170_Streams/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="221">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork22172_TestLambda/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="62" column="48" lean-forward="true" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LabWork22171_TestLambda/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/LabWork22175_TestDateTime/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="629">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1897#1905#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork22174_TestStream/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabWork22174_TestStream/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
+            <state relative-caret-position="2057">
               <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
             </state>
           </provider>
@@ -133,11 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LabWork2162/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2163/Animal.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2163/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2164/Animal.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2164/Puppy.java" />
         <option value="$PROJECT_DIR$/src/LabWork2164/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2165/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork2134/TestEnum2/Card.java" />
@@ -184,6 +200,11 @@
         <option value="$PROJECT_DIR$/src/LabWork22151_testrecflection1/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork22170_Streams/Main.java" />
         <option value="$PROJECT_DIR$/src/LabWork22171_TestLambda/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork22172_TestLambda/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork22172_TestLambda/Person.java" />
+        <option value="$PROJECT_DIR$/src/LabWork22174_TestStream/Person.java" />
+        <option value="$PROJECT_DIR$/src/LabWork22174_TestStream/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabWork22175_TestDateTime/Main.java" />
       </list>
     </option>
   </component>
@@ -201,7 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,11 +241,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LabWork22171_TestLambda" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LabWork22172_TestLambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LabWork22174_TestStream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LabWork22175_TestDateTime" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,26 +279,26 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="LabWork281.MyShapes" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="LabWork2173.TestTread2__" />
-      <recent name="LabWork22124_SerializeUser__" />
-      <recent name="LabWork2156.TestMap1" />
-      <recent name="myStr1" />
-      <recent name="LabWork281.MyShapes" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="LabWork2161.LabWork2162" />
-      <recent name="LabWork22125_Externalizable" />
-      <recent name="LabWork22123_DemoSerialize_transient" />
-      <recent name="AudExemple" />
-      <recent name="LabWork281.MyShapes.MyShapes" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2165" />
       <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2164" />
       <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2163" />
       <recent name="D:\BurlutskyiAleksandrJava\src\LabWork2103" />
       <recent name="D:\BurlutskyiAleksandrJava\src\LabWork281\MyShapes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LabWork22172_TestLambda" />
+      <recent name="LabWork2161.LabWork2162" />
+      <recent name="LabWork22125_Externalizable" />
+      <recent name="LabWork22123_DemoSerialize_transient" />
+      <recent name="AudExemple" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="LabWork2173.TestTread2__" />
+      <recent name="LabWork22124_SerializeUser__" />
+      <recent name="LabWork2156.TestMap1" />
+      <recent name="myStr1" />
+      <recent name="LabWork281.MyShapes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,13 +313,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork22150.Main" />
+      <option name="MAIN_CLASS_NAME" value="LabWork22174_TestStream.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabWork22150.*" />
+          <option name="PATTERN" value="LabWork22174_TestStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,11 +328,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork22152_testrecflection2.Main" />
+      <option name="MAIN_CLASS_NAME" value="LabWork22175_TestDateTime.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabWork22152_testrecflection2.*" />
+          <option name="PATTERN" value="LabWork22175_TestDateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,11 +367,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork22151_testrecflection1.Main" />
+      <option name="MAIN_CLASS_NAME" value="LabWork22172_TestLambda.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabWork22151_testrecflection1.*" />
+          <option name="PATTERN" value="LabWork22174_TestStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,19 +380,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -367,13 +406,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559821224435</updated>
-    </task>
-    <task id="LOCAL-00003" summary="26062019">
-      <created>1561552289036</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1561552289036</updated>
     </task>
     <task id="LOCAL-00004" summary="27062019">
       <created>1561630219408</created>
@@ -711,13 +743,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573134452154</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="12112019">
+      <created>1573562481097</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1573562481097</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22006473" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22330096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -726,7 +766,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.17416379" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.38523644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -746,7 +786,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22006473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22330096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -755,7 +795,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.10149942" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.4059977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -763,7 +803,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5186084" side_tool="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48139158" weight="0.21683967" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48139158" weight="0.21568628" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -776,7 +816,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="25062019" />
     <MESSAGE value="26062019" />
     <MESSAGE value="27062019" />
     <MESSAGE value="180719" />
@@ -801,41 +840,10 @@
     <MESSAGE value="04112019" />
     <MESSAGE value="06112019" />
     <MESSAGE value="07112019" />
-    <option name="LAST_COMMIT_MESSAGE" value="07112019" />
+    <MESSAGE value="12112019" />
+    <option name="LAST_COMMIT_MESSAGE" value="12112019" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LabWork244/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork245/MyPyramid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork244/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork245/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SQL_Tel/MyPhoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-592">
@@ -1110,6 +1118,51 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork22170_Streams.java" />
+    <entry file="file://$PROJECT_DIR$/src/LabWork22151_testrecflection1/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork22151_testrecflection1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork22170_Streams/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork22171_TestLambda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork22152_testrecflection2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1143,50 +1196,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork22151_testrecflection1/MyClass.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork22174_TestStream/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork22151_testrecflection1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork22170_Streams/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="229">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork22174_TestStream/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        <state relative-caret-position="-17">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork22171_TestLambda/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/LabWork22172_TestLambda/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="774">
+          <caret line="62" column="48" lean-forward="true" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork22175_TestDateTime/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1897#1905#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
           </folding>
         </state>
       </provider>

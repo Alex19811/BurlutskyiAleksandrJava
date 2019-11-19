@@ -15,10 +15,12 @@ public class Main {
                 .limit(3)
                 .skip(1)
                 .forEach(System.out::println);
-//Сортирует элементы стрима.
+
+        //Сортирует элементы стрима.
         Stream.of(120, 410, 85, 32, 314, 12)
                 .sorted()
                 .forEach(System.out::println);
+
         //Убирает повторяющиеся элементы и возвращаем стрим с уникальными элементами.
 
         Stream.of(2, 1, 8, 1, 3, 2)
@@ -26,7 +28,7 @@ public class Main {
                 .forEach(System.out::println);
 
         boolean result = Stream.of(120, 410, 85, 32, 314, 12)
-                .allMatch(x -> x %22 == 0);
+                .allMatch(x -> x % 22 == 0);
 
 
     }

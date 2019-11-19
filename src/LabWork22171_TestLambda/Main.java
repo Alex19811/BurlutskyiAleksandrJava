@@ -1,11 +1,11 @@
 package LabWork22171_TestLambda;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
+    private static Object Predicate;
+
     public static void main(String[] args) {
 
         Integer[] array = new Integer[15];
@@ -40,7 +40,7 @@ public class Main {
         strings.add("A2");
         strings.add("A3");
         strings.add("A4");
-        strings.add("A5");
+        strings.add("B5");
 
         strings.sort(Collections.reverseOrder());
         System.out.println("Сортировка строк в обратном порядке: " + strings);
@@ -56,6 +56,46 @@ public class Main {
         System.out.println("Сортировка строк в обратном порядке через лямда-виражение: " + strings);
 
 
+        //Строки, которые начинаются с "А"
+
+        List<String> namesWithA = strings.stream()
+                .filter(name -> name.startsWith("A"))
+                .collect(Collectors.toList());
+        System.out.println("Строки, имена которых начинаются с А: " + namesWithA);
+
+
+
+
+
+
+
+
+
+        /*private static Random random = new Random();
+
+        private Integer[] sort(Integer[] array, Predicate<Integer> sortType) {
+            int count = 0;
+            boolean sorted = false;
+            int temp;
+            while (!sorted) {
+                sorted = true;
+                count++;
+
+                for (int i = 0; i < array.length - 1; i++) {
+                    if (sortType.test(i)) {
+                        temp = array[i];
+                        array[i] = array[i + 1];
+                        array[i + 1] = temp;
+                        sorted = false;
+                    }
+                }
+            }
+
+            // System.out.println("Iterations: " + count);
+            return array;
+        } 
+          */
+        
 
 
 //////

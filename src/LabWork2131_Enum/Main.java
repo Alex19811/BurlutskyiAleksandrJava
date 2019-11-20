@@ -1,4 +1,4 @@
-package LabWork2131;
+package LabWork2131_Enum;
 
 public class Main {
     public static void main(String[] args) {

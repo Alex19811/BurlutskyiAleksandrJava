@@ -27,7 +27,7 @@ public class User {
 
         PermissionAction permissionActions [] = PermissionAction.values();
         for (PermissionAction s : permissionActions) {
-            System.out.println(s);
+            System.out.println("Перечисление содержит элементы: " + s);
         }
     PermissionAction a;
         a=PermissionAction.valueOf("USER_CHANGE");

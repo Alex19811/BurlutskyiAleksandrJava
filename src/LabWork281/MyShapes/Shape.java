@@ -10,7 +10,6 @@ abstract public class Shape implements Drawable {
         this.shapeColor = shapeColor;
     }
 
-
     abstract public double calcArea();
 
 

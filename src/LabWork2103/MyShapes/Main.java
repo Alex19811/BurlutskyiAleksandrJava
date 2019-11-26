@@ -80,8 +80,6 @@ public class Main {
         LabWork2103.MyShapes.Shape.parseShape();
 
     }
-
-
 }
 
 

@@ -1,3 +1,5 @@
+package LabWork22181_Socket_Chat;
+
 import java.io.*;
 import java.net.*;
 import java.util.LinkedList;
@@ -9,7 +11,7 @@ import java.util.LinkedList;
  * @version 2.0
  */
 
-class ServerSomthing extends Thread {
+class ServerSomething extends Thread {
 
     private Socket socket; // сокет, через который сервер общается с клиентом,
     // кроме него - клиент и сервер никак не связаны
@@ -22,7 +24,7 @@ class ServerSomthing extends Thread {
      * @throws IOException
      */
 
-    public ServerSomthing(Socket socket) throws IOException {
+    public ServerSomething(Socket socket) throws IOException {
         this.socket = socket;
         // если потоку ввода/вывода приведут к генерированию искдючения, оно проброситься дальше
         in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -51,7 +53,7 @@ class ServerSomthing extends Thread {
                     }
                     System.out.println("Echoing: " + word);
                     Server.story.addStoryEl(word);
-                    for (ServerSomthing vr : Server.serverList) {
+                    for (ServerSomething vr : Server.serverList) {
                         vr.send(word); // отослать принятое сообщение с привязанного клиента всем остальным влючая его
                     }
                 }
@@ -85,7 +87,7 @@ class ServerSomthing extends Thread {
                 socket.close();
                 in.close();
                 out.close();
-                for (ServerSomthing vr : Server.serverList) {
+                for (ServerSomething vr : Server.serverList) {
                     if(vr.equals(this)) vr.interrupt();
                     Server.serverList.remove(this);
                 }
@@ -144,7 +146,7 @@ class Story {
 public class Server {
 
     public static final int PORT = 8080;
-    public static LinkedList<ServerSomthing> serverList = new LinkedList<>(); // список всех нитей - экземпляров
+    public static LinkedList<ServerSomething> serverList = new LinkedList<>(); // список всех нитей - экземпляров
     // сервера, слушающих каждый своего клиента
     public static Story story; // история переписки
 
@@ -162,7 +164,7 @@ public class Server {
                 // Блокируется до возникновения нового соединения:
                 Socket socket = server.accept();
                 try {
-                    serverList.add(new ServerSomthing(socket)); // добавить новое соединенние в список
+                    serverList.add(new ServerSomething(socket)); // добавить новое соединенние в список
                 } catch (IOException e) {
                     // Если завершится неудачей, закрывается сокет,
                     // в противном случае, нить закроет его:

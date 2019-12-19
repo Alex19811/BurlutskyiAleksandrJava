@@ -1,3 +1,4 @@
+/*
 package LabWork22174_TestStream;
 
 import java.util.Arrays;
@@ -61,6 +62,7 @@ public class Main {
 
 
 
+*/
 /*
 
         Person result1 = persons.stream()                       //Convert to steam
@@ -76,7 +78,8 @@ public class Main {
                 .orElse(null);
 
         System.out.println(result2);
-*/
+*//*
+
 
     }
 
@@ -88,3 +91,4 @@ public class Main {
 //
 //    }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package LabWork22161_TestAnnotation1;
 
 import javafx.scene.input.KeyCode;
@@ -30,14 +31,16 @@ public class VarArgs {
             findMax(1, 2);
             findMax(new int[]{1, 3});
 
-      /*  T[] args;
+      */
+/*  T[] args;
         static  <T> T[] findMax1(T[] args){
             System.out.println("Количество аргументов: " + args.length);
             for (T a : args) {
                 System.out.print(a + " ");
             }
             System.out.println();
-        }*/
+        }*//*
+
 
         }
 
@@ -47,3 +50,4 @@ public class VarArgs {
 }
 
 
+*/

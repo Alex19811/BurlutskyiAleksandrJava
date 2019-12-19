@@ -1,6 +1,6 @@
 package AAA_Ennum;
 
-import javafx.scene.shape.Line;
+
 enum Animals{D("woof"), C("meow"), F ("Burble");
 String sound;
 Animals(String s ){sound=s;}

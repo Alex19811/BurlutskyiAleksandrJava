@@ -1,4 +1,4 @@
-package LabWork22181_Socket_Chat;
+ package LabWork22181_Socket_Chat;
 
 import java.net.*;
 import java.io.*;

@@ -29,8 +29,7 @@ soket.close();
               отображает данные, переданные ему с сервера.*/
         }catch (Exception e){
             Socket socket = new Socket("localhost", 8899);
-            BufferedReader in = new BufferedReader(
-                    new InputStreamReader(socket.getInputStream()));
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             System.out.println(in.readLine());
         }
     }

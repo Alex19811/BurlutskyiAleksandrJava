@@ -7,8 +7,6 @@ import java.net.Socket;
 
 public class Server {
     public static void main(String[] args) {
-
-
         try (
                 ServerSocket listener = new ServerSocket(8899)) {
             Socket socket = listener.accept();

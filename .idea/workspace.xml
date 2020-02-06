@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06102d-b6c6-431b-87ec-c2019e4edff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LabWork22140_DemoGuiSwing/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_DataBase/DbConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_DataBase/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_GUI/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_JavaNewFeatures/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_JavaNewFeatures/None.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Networking/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_OODesign/Snoochy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_OODesign/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Proxy/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Proxy/Foolmpi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Reflections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Reflections/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,13 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LabWork22140_DemoGuiSwing/MyApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/AAA_OODesign/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -37,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,24 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LabWork167_Array/Main.java" />
-        <option value="$PROJECT_DIR$/src/AAA_Array/Main.java" />
-        <option value="$PROJECT_DIR$/src/AAA_Ennum/Main.java" />
-        <option value="$PROJECT_DIR$/src/AAA_Ennum/Coffee.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2111_TestException/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2112_TestException/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2112_TestException/MyException.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2112_TestException/MyTest.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2113_TestException/InvalidAgeException.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2113_TestException/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2113_TestException/Person.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2114_TestException/InvalidShapeStringException.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2115_TestException/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2103/MyShapes/Shape.java" />
-        <option value="$PROJECT_DIR$/src/LabWork281/MyShapes/Shape.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2103/MyShapes/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2114_TestException/Main.java" />
-        <option value="$PROJECT_DIR$/src/LabWork2114_TestException__/Main.java" />
         <option value="$PROJECT_DIR$/src/AAA_Exceptions/Main.java" />
         <option value="$PROJECT_DIR$/src/AAA_Generics/Main.java" />
         <option value="$PROJECT_DIR$/src/AAA_Collections/Main.java" />
@@ -105,10 +97,28 @@
         <option value="$PROJECT_DIR$/src/Socket/Client.java" />
         <option value="$PROJECT_DIR$/src/LabWork22141_DemoGuiSwing/MyApplication.java" />
         <option value="$PROJECT_DIR$/src/LabWork22140_DemoGuiSwing/MyApplication.java" />
+        <option value="$PROJECT_DIR$/src/AAA_GUI/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_DataBase/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_DataBase/DbConnector.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Reflections/a.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Reflections/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Networking/main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Networking/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Proxy.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Proxy/Foolmpi.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Proxy/Foo.java" />
+        <option value="$PROJECT_DIR$/src/AAA_Proxy/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_SoftwareDevelopmentLifeCycle/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_S/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_JavaNewFeatures/None.java" />
+        <option value="$PROJECT_DIR$/src/AAA_JavaNewFeatures/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_OODesign/Main.java" />
+        <option value="$PROJECT_DIR$/src/AAA_OODesign/Snoochy.java" />
+        <option value="$PROJECT_DIR$/src/AAA_OODesign/Test.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="767" />
     <option name="y" value="11" />
     <option name="width" value="515" />
@@ -134,6 +144,18 @@
               <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AAA_OODesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BurlutskyiAleksandrJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCollection0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BurlutskyiAleksandrJava" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +198,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576777141953" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/LabWork2165" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -185,12 +207,12 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="LabWork281.MyShapes" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="LabWork2114_TestException" />
-      <recent name="AAA_Ennum" />
-      <recent name="LabWork2173.TestTread2__" />
-      <recent name="LabWork22124_SerializeUser__" />
-      <recent name="LabWork2156.TestMap1" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2165" />
+      <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2164" />
+      <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2163" />
+      <recent name="D:\BurlutskyiAleksandrJava\src\LabWork2103" />
+      <recent name="D:\BurlutskyiAleksandrJava\src\LabWork281\MyShapes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="LabWork22172_TestLambda" />
@@ -199,12 +221,12 @@
       <recent name="LabWork22123_DemoSerialize_transient" />
       <recent name="AudExemple" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2165" />
-      <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2164" />
-      <recent name="D:\Idea my progects\BurlutskyiAleksandrJava\src\LabWork2163" />
-      <recent name="D:\BurlutskyiAleksandrJava\src\LabWork2103" />
-      <recent name="D:\BurlutskyiAleksandrJava\src\LabWork281\MyShapes" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="AAA_JavaNewFeatures" />
+      <recent name="AAA_Reflections" />
+      <recent name="AAA_DataBase" />
+      <recent name="LabWork2114_TestException" />
+      <recent name="AAA_Ennum" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,13 +241,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyApplication">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Client" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AAA_OODesign.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="AAA_OODesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork22140_DemoGuiSwing.MyApplication" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AAA_Networking.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabWork22140_DemoGuiSwing.*" />
+          <option name="PATTERN" value="AAA_Networking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Phonebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhoneBook.Phonebook" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AAA_JavaNewFeatures.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhoneBook.*" />
+          <option name="PATTERN" value="AAA_JavaNewFeatures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabWork2180.Random" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AAA_Proxy.Main" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabWork2180.*" />
+          <option name="PATTERN" value="AAA_Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Server" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AAA_OODesign.Test" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="AAA_OODesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,19 +308,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Random" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Phonebook" />
-      <item itemvalue="Application.MyApplication" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyApplication" />
-        <item itemvalue="Application.Phonebook" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Random" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -312,13 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559821224435</updated>
-    </task>
-    <task id="LOCAL-00018" summary="11082019">
-      <created>1565546217345</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1565546217345</updated>
     </task>
     <task id="LOCAL-00019" summary="11082019">
       <created>1565620772438</created>
@@ -656,31 +671,39 @@
       <option name="project" value="LOCAL" />
       <updated>1577111461393</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="09012020">
+      <created>1578580244290</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1578580244290</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="767" y="11" width="515" height="956" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32119742" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33495146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.18915802" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5186084" side_tool="true" weight="0.16378316" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298731" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48139158" weight="0.17762399" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.12087912" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.34602076" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4894822" weight="0.17496963" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39907727" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5186084" side_tool="true" weight="0.16378316" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3298731" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48139158" weight="0.16646415" />
+      <window_info active="true" anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.12055016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -692,25 +715,26 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32119742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33495146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.19953863" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5186084" side_tool="true" weight="0.16378316" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298731" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48139158" weight="0.17762399" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.12135922" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.34602076" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4894822" weight="0.17496963" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39907727" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5186084" side_tool="true" weight="0.16378316" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3298731" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48139158" weight="0.16646415" />
+      <window_info active="true" anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.12055016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -723,7 +747,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10092019" />
     <MESSAGE value="17092019" />
     <MESSAGE value="23092019" />
     <MESSAGE value="26092019" />
@@ -748,7 +771,8 @@
     <MESSAGE value="16122019" />
     <MESSAGE value="18122019" />
     <MESSAGE value="23122019" />
-    <option name="LAST_COMMIT_MESSAGE" value="23122019" />
+    <MESSAGE value="09012020" />
+    <option name="LAST_COMMIT_MESSAGE" value="09012020" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BurlutskyiAleksandrJava$MyApplication.ic" NAME="MyApplication Coverage Results" MODIFIED="1578579451372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -756,77 +780,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LabWork2150/TestCollection0/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2150/TestCollection0/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AAA_Exceptions/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork2144/TestGenerics3/MyMixer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2144/TestGenerics3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2141/TestGenerics1/MyTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AAA_Generics/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/AAA_Collections/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/AAA_Method_overloading/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork2181/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/math/BigInteger.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/math/BigInteger.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork22181_Socket/WriteMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork22181_Socket/ReadMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork22181_Socket/ServerSomthing.java" />
-    <entry file="file://$PROJECT_DIR$/src/AAA_CoreJavaClasses/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork22180_UDP/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork22180_URLConnection/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/LabWork22161_TestAnnotation1/VarArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork22174_TestStream/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabWork2150/TestCollection0/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AAA_Ennum/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1044,13 +997,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_GUI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_DataBase/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_DataBase/DbConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_Streams/Mine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2150/TestCollection0/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabWork2150/TestCollection0/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabWork22140_DemoGuiSwing/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="785">
+          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="79" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_Reflections/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_Reflections/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_Proxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/AAA_Networking/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_Proxy/Foolmpi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_Proxy/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_Proxy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="249" column="21" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/DoublePredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_OODesign/Ьфшт.java" />
+    <entry file="file://$PROJECT_DIR$/src/AAA_JavaNewFeatures/None.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_JavaNewFeatures/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="70" selection-start-line="12" selection-start-column="7" selection-end-line="16" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_OODesign/Snoochy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAA_OODesign/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
